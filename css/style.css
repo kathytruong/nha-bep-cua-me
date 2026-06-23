@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Dancing+Script:wght@500;600&display=swap');
 
 :root {
-  --cream: #FDF8F0;
-  --warm-white: #FEFCF8;
-  --sand: #F5EDE0;
-  --tan: #E8DCC8;
-  --terracotta: #C4563A;
-  --terracotta-light: #D4785F;
-  --warm-brown: #8B7355;
-  --deep-brown: #5C4A32;
-  --dark-brown: #3D2E1C;
-  --accent-green: #6B7F5E;
-  --text-primary: #3D2E1C;
-  --text-secondary: #6B5D4D;
-  --text-light: #9B8B78;
-  --text-muted: #B5A899;
-  --border: #E8DCC8;
+  --cream: oklch(0.972 0.018 80);
+  --warm-white: oklch(0.985 0.012 80);
+  --sand: oklch(0.93 0.025 75);
+  --tan: oklch(0.88 0.025 70);
+  --terracotta: oklch(0.5 0.14 35);
+  --terracotta-light: oklch(0.55 0.14 38);
+  --clay: oklch(0.55 0.14 38);
+  --warm-brown: oklch(0.45 0.03 40);
+  --deep-brown: oklch(0.3 0.04 35);
+  --dark-brown: oklch(0.24 0.03 35);
+  --accent-green: oklch(0.5 0.08 155);
+  --text-primary: oklch(0.24 0.03 35);
+  --text-secondary: oklch(0.3 0.04 35);
+  --text-light: oklch(0.45 0.03 40);
+  --text-muted: oklch(0.45 0.03 40);
+  --border: oklch(0.88 0.025 70);
 }
 
 * {
@@ -290,11 +291,11 @@ nav .container {
   content: '';
   height: 1px;
   width: 80px;
-  background: linear-gradient(to right, transparent, var(--terracotta-light), transparent);
+  background: linear-gradient(to right, transparent, var(--clay), transparent);
 }
 
 .divider-ornament span {
-  color: var(--terracotta);
+  color: var(--clay);
   font-size: 1rem;
 }
 
@@ -608,7 +609,7 @@ nav .container {
   content: '';
   height: 1px;
   width: 100px;
-  background: linear-gradient(to right, transparent, var(--terracotta-light), transparent);
+  background: linear-gradient(to right, transparent, var(--clay), transparent);
 }
 
 .memorial-divider span {
@@ -629,7 +630,10 @@ nav .container {
 }
 
 .memorial .memorial-desc {
-  color: var(--text-muted);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--text-light);
   font-size: 1.05rem;
   line-height: 1.8;
   max-width: 600px;
