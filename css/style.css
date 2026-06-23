@@ -1,0 +1,928 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Dancing+Script:wght@500;600&display=swap');
+
+:root {
+  --cream: #FDF8F0;
+  --warm-white: #FEFCF8;
+  --sand: #F5EDE0;
+  --tan: #E8DCC8;
+  --terracotta: #C4563A;
+  --terracotta-light: #D4785F;
+  --warm-brown: #8B7355;
+  --deep-brown: #5C4A32;
+  --dark-brown: #3D2E1C;
+  --accent-green: #6B7F5E;
+  --text-primary: #3D2E1C;
+  --text-secondary: #6B5D4D;
+  --text-light: #9B8B78;
+  --text-muted: #B5A899;
+  --border: #E8DCC8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: var(--cream);
+  color: var(--text-primary);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ─── Navigation ─── */
+
+nav {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  background: var(--warm-white);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  text-decoration: none;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-brand-script {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--terracotta);
+}
+
+.nav-brand-serif {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--dark-brown);
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--warm-brown);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s;
+  letter-spacing: 0.01em;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--terracotta);
+}
+
+.nav-browse {
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em !important;
+  color: var(--terracotta) !important;
+  border: 1.5px solid var(--terracotta);
+  border-radius: 24px;
+  padding: 8px 20px;
+  transition: background 0.2s, color 0.2s !important;
+}
+
+.nav-browse:hover {
+  background: var(--terracotta);
+  color: var(--cream) !important;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--deep-brown);
+}
+
+/* ─── Hero Section ─── */
+
+.hero {
+  padding: 80px 0 60px;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  height: 420px;
+  margin: 0 auto 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--tan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-placeholder {
+  color: var(--text-light);
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  color: var(--dark-brown);
+  letter-spacing: -0.02em;
+}
+
+.hero h1 em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero .subtitle {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 560px;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+/* ─── Decorative Dividers ─── */
+
+.divider {
+  text-align: center;
+  margin: 48px 0;
+  color: var(--text-light);
+  font-size: 1.2rem;
+  letter-spacing: 8px;
+}
+
+.divider-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 48px 0;
+}
+
+.divider-ornament::before,
+.divider-ornament::after {
+  content: '';
+  height: 1px;
+  width: 80px;
+  background: linear-gradient(to right, transparent, var(--terracotta-light), transparent);
+}
+
+.divider-ornament span {
+  color: var(--terracotta);
+  font-size: 1rem;
+}
+
+/* ─── Section Headings ─── */
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-label {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.1rem;
+  color: var(--terracotta);
+  margin-bottom: 4px;
+}
+
+.section-header h2 {
+  font-size: 2.2rem;
+  color: var(--deep-brown);
+  margin-bottom: 4px;
+}
+
+.section-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+.section-header-row .section-left .section-label {
+  text-align: left;
+}
+
+.section-header-row .section-left h2 {
+  font-size: 2.2rem;
+  color: var(--deep-brown);
+}
+
+.section-header-row .see-all {
+  text-decoration: none;
+  color: var(--terracotta);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+}
+
+.section-header-row .see-all:hover {
+  opacity: 0.7;
+}
+
+.section-header .section-sub {
+  font-family: 'Dancing Script', cursive;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+/* ─── Recipe Cards Grid ─── */
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 28px;
+  margin-bottom: 60px;
+}
+
+.recipe-card {
+  background: var(--warm-white);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(92, 74, 50, 0.1);
+}
+
+.recipe-card-image {
+  width: 100%;
+  height: 200px;
+  background: var(--sand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.recipe-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recipe-card-image .placeholder-icon {
+  font-size: 2.5rem;
+  opacity: 0.4;
+}
+
+.recipe-card-body {
+  padding: 18px;
+}
+
+.recipe-card-category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--terracotta);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.recipe-card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--dark-brown);
+  margin-bottom: 2px;
+}
+
+.recipe-card-english {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.recipe-card-from {
+  font-family: 'Dancing Script', cursive;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+/* ─── Categories Section ─── */
+
+.categories {
+  padding: 60px 0;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 20px;
+}
+
+.category-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px 22px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.category-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--terracotta);
+}
+
+.category-card h3 {
+  font-size: 1.15rem;
+  color: var(--deep-brown);
+  margin-bottom: 4px;
+}
+
+.category-card .viet-name {
+  font-family: 'Dancing Script', cursive;
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+/* ─── Filter Tabs ─── */
+
+.filter-tabs {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-tab {
+  padding: 8px 20px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: transparent;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-tab:hover {
+  border-color: var(--terracotta);
+  color: var(--terracotta);
+}
+
+.filter-tab.active {
+  background: var(--terracotta);
+  color: var(--cream);
+  border-color: var(--terracotta);
+}
+
+/* ─── Stories Page ─── */
+
+.stories-section {
+  padding: 60px 0;
+}
+
+.story-block {
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+.story-block .story-context {
+  font-family: 'Dancing Script', cursive;
+  color: var(--terracotta);
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.story-block h2 {
+  font-size: 1.8rem;
+  color: var(--deep-brown);
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.story-block .story-image {
+  width: 100%;
+  height: 300px;
+  background: var(--sand);
+  border-radius: 10px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.story-block .story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-block p {
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* ─── About Page ─── */
+
+.about-section {
+  padding: 60px 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-section h1 {
+  font-size: 2.2rem;
+  color: var(--deep-brown);
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.about-section p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.about-section .highlight {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--deep-brown);
+  border-left: 3px solid var(--terracotta);
+  padding-left: 20px;
+  margin: 32px 0;
+}
+
+/* ─── Memorial ─── */
+
+.memorial {
+  text-align: center;
+  padding: 48px 0;
+  margin-top: 40px;
+}
+
+.memorial-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.memorial-divider::before,
+.memorial-divider::after {
+  content: '';
+  height: 1px;
+  width: 100px;
+  background: linear-gradient(to right, transparent, var(--terracotta-light), transparent);
+}
+
+.memorial-divider span {
+  font-family: 'Dancing Script', cursive;
+  color: var(--terracotta);
+  font-size: 1.15rem;
+}
+
+.memorial h3 {
+  font-size: 1.8rem;
+  color: var(--dark-brown);
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.memorial h3 .accent {
+  color: var(--terracotta);
+}
+
+.memorial .memorial-desc {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 16px auto 0;
+}
+
+.memorial .flourish {
+  color: var(--terracotta);
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.memorial p {
+  font-family: 'Dancing Script', cursive;
+  color: var(--text-secondary);
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.memorial .memorial-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--terracotta);
+  font-size: 1.1rem;
+  margin-top: 12px;
+}
+
+/* ─── Recipe Detail Page ─── */
+
+.recipe-detail {
+  padding: 48px 0;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.recipe-detail .back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+  transition: color 0.2s;
+}
+
+.recipe-detail .back-link:hover {
+  color: var(--terracotta);
+}
+
+.recipe-detail-hero {
+  width: 100%;
+  height: 380px;
+  background: var(--sand);
+  border-radius: 12px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.recipe-detail-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recipe-detail h1 {
+  font-size: 2.4rem;
+  color: var(--dark-brown);
+  margin-bottom: 4px;
+}
+
+.recipe-detail .english-name {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.recipe-detail .recipe-from {
+  font-family: 'Dancing Script', cursive;
+  color: var(--terracotta);
+  font-size: 1.05rem;
+  margin-bottom: 28px;
+}
+
+.recipe-meta {
+  display: flex;
+  gap: 32px;
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 36px;
+}
+
+.recipe-meta-item {
+  text-align: center;
+}
+
+.recipe-meta-item .meta-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-light);
+  margin-bottom: 4px;
+}
+
+.recipe-meta-item .meta-value {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  color: var(--deep-brown);
+}
+
+.recipe-section {
+  margin-bottom: 36px;
+}
+
+.recipe-section h2 {
+  font-size: 1.3rem;
+  color: var(--deep-brown);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.recipe-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-section ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(232, 220, 200, 0.5);
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.recipe-section ul li:last-child {
+  border-bottom: none;
+}
+
+.recipe-section ol {
+  padding-left: 0;
+  counter-reset: step;
+  list-style: none;
+}
+
+.recipe-section ol li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(232, 220, 200, 0.5);
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+  counter-increment: step;
+  display: flex;
+  gap: 16px;
+}
+
+.recipe-section ol li::before {
+  content: counter(step);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--terracotta);
+  min-width: 24px;
+  flex-shrink: 0;
+}
+
+.recipe-section ol li:last-child {
+  border-bottom: none;
+}
+
+.recipe-tip {
+  background: var(--sand);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-top: 8px;
+}
+
+.recipe-tip .tip-label {
+  font-family: 'Dancing Script', cursive;
+  color: var(--terracotta);
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.recipe-tip p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ─── Footer ─── */
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 48px 0 32px;
+  margin-top: 60px;
+  background: var(--warm-white);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.footer-brand-script {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--terracotta);
+  margin-bottom: 2px;
+}
+
+.footer-brand-serif {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--dark-brown);
+  margin-bottom: 8px;
+}
+
+.footer-tagline {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: var(--text-light);
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--terracotta);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.footer-bottom p {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-weight: 300;
+}
+
+/* ─── Page Header (for inner pages) ─── */
+
+.page-header {
+  text-align: center;
+  padding: 48px 0 32px;
+}
+
+.page-header h1 {
+  font-size: 2.4rem;
+  color: var(--deep-brown);
+  margin-bottom: 8px;
+}
+
+.page-header .page-sub {
+  font-family: 'Dancing Script', cursive;
+  color: var(--terracotta);
+  font-size: 1.15rem;
+}
+
+/* ─── Responsive ─── */
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--warm-white);
+    flex-direction: column;
+    padding: 20px 24px;
+    gap: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-image {
+    height: 260px;
+  }
+
+  .recipe-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 16px;
+  }
+
+  .recipe-card-image {
+    height: 150px;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .recipe-meta {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .recipe-detail h1 {
+    font-size: 1.8rem;
+  }
+
+  .recipe-detail-hero {
+    height: 240px;
+  }
+
+  .story-block .story-image {
+    height: 200px;
+  }
+
+  .section-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recipe-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-tabs {
+    gap: 8px;
+  }
+
+  .filter-tab {
+    padding: 6px 14px;
+    font-size: 0.8rem;
+  }
+}
