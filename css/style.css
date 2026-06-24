@@ -430,6 +430,10 @@ nav .container {
   display: block;
 }
 
+.recipe-card.is-filtered-out {
+  display: none !important;
+}
+
 .recipe-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-warm);
@@ -454,6 +458,11 @@ nav .container {
 .recipe-card-image .placeholder-icon {
   font-size: 2.5rem;
   opacity: 0.4;
+  color: var(--clay);
+}
+
+.recipe-card-image--placeholder {
+  color: var(--clay);
 }
 
 .recipe-card-body {
@@ -602,7 +611,7 @@ nav .container {
 
 .cooks-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
 }
 
@@ -624,10 +633,11 @@ nav .container {
 }
 
 .cook-avatar {
-  width: 88px;
-  height: 88px;
+  width: 96px;
+  height: 96px;
   margin: 0 auto 16px;
   border-radius: 50%;
+  overflow: hidden;
   background: linear-gradient(145deg, oklch(0.94 0.02 75), oklch(0.88 0.06 75));
   border: 2px solid oklch(0.88 0.025 70 / 0.8);
   display: flex;
@@ -637,6 +647,13 @@ nav .container {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--terracotta);
+}
+
+.cook-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .cook-name {

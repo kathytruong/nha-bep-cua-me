@@ -1,62 +1,79 @@
 function toggleMenu() {
   var nav = document.getElementById('navLinks');
-  nav.classList.toggle('open');
+  if (nav) nav.classList.toggle('open');
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  var dishTabs = document.querySelectorAll('.filter-tab-dish');
-  var cookTabs = document.querySelectorAll('.filter-tab-cook');
-  var cards = document.querySelectorAll('.recipe-card[data-category]');
+function initRecipeFilters() {
+  var grid = document.getElementById('recipeGrid');
+  var dishFilters = document.getElementById('dishFilters');
+  var cookFilters = document.getElementById('cookFilters');
 
+  if (!grid || !dishFilters || !cookFilters) return;
+
+  var cards = grid.querySelectorAll('.recipe-card[data-category][data-cook]');
   if (!cards.length) return;
 
   var activeDish = 'all';
   var activeCook = 'all';
 
   function applyFilters() {
-    if (dishTabs.length) {
-      dishTabs.forEach(function (t) {
-        t.classList.toggle('active', t.getAttribute('data-filter') === activeDish);
-      });
-    }
+    dishFilters.querySelectorAll('.filter-tab-dish').forEach(function (tab) {
+      tab.classList.toggle('active', tab.getAttribute('data-filter') === activeDish);
+    });
 
-    if (cookTabs.length) {
-      cookTabs.forEach(function (t) {
-        t.classList.toggle('active', t.getAttribute('data-cook') === activeCook);
-      });
-    }
+    cookFilters.querySelectorAll('.filter-tab-cook').forEach(function (tab) {
+      tab.classList.toggle('active', tab.getAttribute('data-cook') === activeCook);
+    });
 
     cards.forEach(function (card) {
       var dishMatch = activeDish === 'all' || card.getAttribute('data-category') === activeDish;
       var cookMatch = activeCook === 'all' || card.getAttribute('data-cook') === activeCook;
-      card.style.display = dishMatch && cookMatch ? '' : 'none';
+      card.classList.toggle('is-filtered-out', !(dishMatch && cookMatch));
     });
   }
 
-  dishTabs.forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      activeDish = tab.getAttribute('data-filter');
-      applyFilters();
-    });
-  });
+  function applyHash() {
+    var hash = window.location.hash.slice(1);
+    if (!hash) return;
 
-  cookTabs.forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      activeCook = tab.getAttribute('data-cook');
-      applyFilters();
-    });
-  });
-
-  var hash = window.location.hash.slice(1);
-  if (hash) {
     if (hash.indexOf('cook-') === 0) {
-      var cookSlug = hash.replace('cook-', '');
-      if (document.querySelector('.filter-tab-cook[data-cook="' + cookSlug + '"]')) {
+      var cookSlug = hash.slice(5);
+      if (cookFilters.querySelector('[data-cook="' + cookSlug + '"]')) {
         activeCook = cookSlug;
       }
-    } else if (document.querySelector('.filter-tab-dish[data-filter="' + hash + '"]')) {
+      return;
+    }
+
+    if (dishFilters.querySelector('[data-filter="' + hash + '"]')) {
       activeDish = hash;
     }
-    applyFilters();
   }
-});
+
+  dishFilters.addEventListener('click', function (event) {
+    var tab = event.target.closest('.filter-tab-dish');
+    if (!tab) return;
+    activeDish = tab.getAttribute('data-filter') || 'all';
+    applyFilters();
+  });
+
+  cookFilters.addEventListener('click', function (event) {
+    var tab = event.target.closest('.filter-tab-cook');
+    if (!tab) return;
+    activeCook = tab.getAttribute('data-cook') || 'all';
+    applyFilters();
+  });
+
+  window.addEventListener('hashchange', function () {
+    applyHash();
+    applyFilters();
+  });
+
+  applyHash();
+  applyFilters();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initRecipeFilters);
+} else {
+  initRecipeFilters();
+}

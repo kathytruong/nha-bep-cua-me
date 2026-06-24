@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes — Nhà Bếp Của Mẹ</title>
-  <link rel="stylesheet" href="css/style.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=8">
 </head>
 <body>
 
@@ -36,25 +36,26 @@
       <div class="filter-group">
         <p class="filter-group-label">By dish</p>
         <div class="filter-tabs" id="dishFilters">
-          <button class="filter-tab filter-tab-dish active" data-filter="all">All</button>
-          <button class="filter-tab filter-tab-dish" data-filter="mon-nuoc">Phở & Canh</button>
-          <button class="filter-tab filter-tab-dish" data-filter="mon-man">Món Mặn</button>
-          <button class="filter-tab filter-tab-dish" data-filter="banh">Bánh</button>
-          <button class="filter-tab filter-tab-dish" data-filter="desserts">Desserts</button>
-          <button class="filter-tab filter-tab-dish" data-filter="com">Cơm & Xôi</button>
-          <button class="filter-tab filter-tab-dish" data-filter="do-chua">Đồ Chua</button>
-          <button class="filter-tab filter-tab-dish" data-filter="nuoc-cham">Nước Chấm</button>
+          <button type="button" class="filter-tab filter-tab-dish active" data-filter="all">All</button>
+          <button type="button" class="filter-tab filter-tab-dish" data-filter="mon-nuoc">Phở & Canh</button>
+          <button type="button" class="filter-tab filter-tab-dish" data-filter="mon-man">Món Mặn</button>
+          <button type="button" class="filter-tab filter-tab-dish" data-filter="banh">Bánh</button>
+          <button type="button" class="filter-tab filter-tab-dish" data-filter="desserts">Desserts</button>
+          <button type="button" class="filter-tab filter-tab-dish" data-filter="com">Cơm & Xôi</button>
+          <button type="button" class="filter-tab filter-tab-dish" data-filter="do-chua">Đồ Chua</button>
+          <button type="button" class="filter-tab filter-tab-dish" data-filter="nuoc-cham">Nước Chấm</button>
         </div>
       </div>
 
       <div class="filter-group">
         <p class="filter-group-label">By cook</p>
         <div class="filter-tabs" id="cookFilters">
-          <button class="filter-tab filter-tab-cook active" data-cook="all">Everyone</button>
-          <button class="filter-tab filter-tab-cook" data-cook="me">Mẹ</button>
-          <button class="filter-tab filter-tab-cook" data-cook="di-huong">Dì Hương</button>
-          <button class="filter-tab filter-tab-cook" data-cook="di-lan">Dì Lan</button>
-          <button class="filter-tab filter-tab-cook" data-cook="linh">Linh</button>
+          <button type="button" class="filter-tab filter-tab-cook active" data-cook="all">Everyone</button>
+          <button type="button" class="filter-tab filter-tab-cook" data-cook="me-oanh">Mẹ Oanh</button>
+          <button type="button" class="filter-tab filter-tab-cook" data-cook="me-uyen">Mẹ Uyên</button>
+          <button type="button" class="filter-tab filter-tab-cook" data-cook="me-yen">Mẹ Yên</button>
+          <button type="button" class="filter-tab filter-tab-cook" data-cook="me-yen-nho">Mẹ Yên Nho</button>
+          <button type="button" class="filter-tab filter-tab-cook" data-cook="me-thinh">Mẹ Thịnh</button>
         </div>
       </div>
 
@@ -62,7 +63,7 @@
 
         <!-- ═══ Phở & Canh ═══ -->
 
-        <a href="recipes/pho-bac.html" class="recipe-card" data-cook="me" data-category="mon-nuoc">
+        <a href="recipes/pho-bac.html" class="recipe-card" data-cook="me-oanh" data-category="mon-nuoc">
           <div class="recipe-card-image">
             <img src="images/pho-bac.png" alt="Phở Bắc">
           </div>
@@ -70,7 +71,7 @@
             <div class="recipe-card-category">Phở & Canh</div>
             <div class="recipe-card-title">Phở Bắc</div>
             <div class="recipe-card-english">Northern-Style Beef Phở</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
@@ -86,7 +87,7 @@
           </div>
         </a>
 
-        <a href="recipes/hu-tieu-xao.html" class="recipe-card" data-cook="me" data-category="mon-nuoc">
+        <a href="recipes/hu-tieu-xao.html" class="recipe-card" data-cook="me-oanh" data-category="mon-nuoc">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4488.jpg" alt="Hủ Tiếu Xào">
           </div>
@@ -94,7 +95,7 @@
             <div class="recipe-card-category">Phở & Canh</div>
             <div class="recipe-card-title">Hủ Tiếu Xào Pad Thai</div>
             <div class="recipe-card-english">Stir-Fried Pad Thai Noodles</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
@@ -112,7 +113,7 @@
           </div>
         </a>
 
-        <a href="recipes/goi-cuon.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/goi-cuon.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/goicuon.jpeg" alt="Gỏi Cuốn Tôm Thịt">
           </div>
@@ -120,11 +121,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Gỏi Cuốn Tôm Thịt</div>
             <div class="recipe-card-english">Fresh Shrimp Summer Rolls</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/bo-kho.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/bo-kho.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4499.jpg" alt="Bò Kho">
           </div>
@@ -132,11 +133,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Bò Kho</div>
             <div class="recipe-card-english">Vietnamese Beef Stew</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/pha-lau.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/pha-lau.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4489.jpg" alt="Phá Lấu">
           </div>
@@ -144,11 +145,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Phá Lấu</div>
             <div class="recipe-card-english">Vietnamese Offal Stew</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/bo-nuong-la-lot.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/bo-nuong-la-lot.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4471.jpg" alt="Bò Nướng Lá Lốt">
           </div>
@@ -156,11 +157,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Bò Nướng Lá Lốt</div>
             <div class="recipe-card-english">Beef Wrapped in Betel Leaves</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/ca-chim-nuong.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/ca-chim-nuong.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4472.jpg" alt="Cá Chim Trắng Nướng">
           </div>
@@ -168,11 +169,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Cá Chim Trắng Nướng</div>
             <div class="recipe-card-english">Grilled White Pomfret</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/ga-turkey-nuong.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/ga-turkey-nuong.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4439.jpg" alt="Gà Turkey Nướng">
           </div>
@@ -180,11 +181,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Gà Turkey Nướng</div>
             <div class="recipe-card-english">Roast Turkey</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/xa-xiu.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/xa-xiu.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4481.jpg" alt="Xá Xíu">
           </div>
@@ -192,11 +193,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Xá Xíu</div>
             <div class="recipe-card-english">Vietnamese Char Siu BBQ Pork</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/thit-bo-xao.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/thit-bo-xao.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4452.jpg" alt="Thịt Bò Xào Thái">
           </div>
@@ -204,11 +205,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Thịt Bò Xào Thái</div>
             <div class="recipe-card-english">Thai-Style Stir-Fried Beef</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/cua-rang-me.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/cua-rang-me.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4465.jpg" alt="Cua Rang Me">
           </div>
@@ -216,11 +217,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Cua Rang Me</div>
             <div class="recipe-card-english">Tamarind Crab</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/canh-ga-chien.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/canh-ga-chien.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4487.jpg" alt="Cánh Gà Chiên">
           </div>
@@ -228,11 +229,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Cánh Gà Chiên</div>
             <div class="recipe-card-english">Glazed Fried Chicken Wings</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-tom-chien.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/banh-tom-chien.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4495.jpg" alt="Bánh Tôm Chiên">
           </div>
@@ -240,11 +241,11 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Bánh Tôm Chiên</div>
             <div class="recipe-card-english">Fried Shrimp Cakes</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/lau-chua.html" class="recipe-card" data-cook="me" data-category="mon-man">
+        <a href="recipes/lau-chua.html" class="recipe-card" data-cook="me-oanh" data-category="mon-man">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4448.jpg" alt="Lẩu Chua Thái Bò">
           </div>
@@ -252,13 +253,13 @@
             <div class="recipe-card-category">Món Mặn</div>
             <div class="recipe-card-title">Lẩu Chua Thái Bò</div>
             <div class="recipe-card-english">Sour Thai-Style Hot Pot with Beef</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
         <!-- ═══ Bánh ═══ -->
 
-        <a href="recipes/banh-cuon.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-cuon.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4437.jpg" alt="Bánh Cuốn">
           </div>
@@ -266,11 +267,11 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Cuốn</div>
             <div class="recipe-card-english">Steamed Rice Rolls</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-su-kem.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-su-kem.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4443.jpg" alt="Bánh Su Kem">
           </div>
@@ -278,11 +279,11 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Su Kem</div>
             <div class="recipe-card-english">Cream Puffs</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-bong-lan.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-bong-lan.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4446.jpg" alt="Bánh Bông Lan">
           </div>
@@ -290,11 +291,11 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Bông Lan</div>
             <div class="recipe-card-english">Vietnamese Sponge Cake</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-bo-nuong.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-bo-nuong.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4447.jpg" alt="Bánh Bò Nướng">
           </div>
@@ -302,11 +303,11 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Bò Nướng</div>
             <div class="recipe-card-english">Baked Honeycomb Cake</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-chuoi.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-chuoi.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4449.jpg" alt="Bánh Chuối Nướng">
           </div>
@@ -314,11 +315,11 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Chuối Nướng</div>
             <div class="recipe-card-english">Banana Cake</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-gio.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-gio.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4455.jpg" alt="Bánh Giò">
           </div>
@@ -326,11 +327,11 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Giò</div>
             <div class="recipe-card-english">Rice Flour Dumplings</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-uot.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-uot.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4477.jpg" alt="Bánh Ướt">
           </div>
@@ -338,11 +339,11 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Ướt</div>
             <div class="recipe-card-english">Steamed Rice Sheets</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/banh-bot-man.html" class="recipe-card" data-cook="me" data-category="banh">
+        <a href="recipes/banh-bot-man.html" class="recipe-card" data-cook="me-oanh" data-category="banh">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4479.jpg" alt="Bánh Bột Mặn">
           </div>
@@ -350,7 +351,7 @@
             <div class="recipe-card-category">Bánh</div>
             <div class="recipe-card-title">Bánh Bột Mặn</div>
             <div class="recipe-card-english">Savory Rice Flour Cake</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
@@ -368,7 +369,7 @@
           </div>
         </a>
 
-        <a href="recipes/tau-hu-duong.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/tau-hu-duong.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/tau-hu-duong.png" alt="Tàu Hũ Đường">
           </div>
@@ -376,11 +377,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Tàu Hũ Đường</div>
             <div class="recipe-card-english">Sweet Tofu Dessert</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/che-dau-trang.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/che-dau-trang.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4438.jpg" alt="Chè Đậu Trắng">
           </div>
@@ -388,11 +389,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Chè Đậu Trắng</div>
             <div class="recipe-card-english">White Bean Sweet Soup</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/rau-cau.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/rau-cau.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4441.jpg" alt="Rau Câu">
           </div>
@@ -400,11 +401,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Rau Câu</div>
             <div class="recipe-card-english">Vietnamese Agar Jelly</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/che-khoai-mi.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/che-khoai-mi.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4458.jpg" alt="Chè Khoai Mì Nướng">
           </div>
@@ -412,11 +413,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Chè Khoai Mì Nướng</div>
             <div class="recipe-card-english">Baked Cassava Cake</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/che-khoai-mon.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/che-khoai-mon.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4461.jpg" alt="Chè Khoai Môn">
           </div>
@@ -424,11 +425,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Chè Khoai Môn</div>
             <div class="recipe-card-english">Taro Sweet Soup</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/yogurt-vn.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/yogurt-vn.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4463.jpg" alt="Yogurt Việt Nam">
           </div>
@@ -436,11 +437,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Yogurt Việt Nam</div>
             <div class="recipe-card-english">Vietnamese Homemade Yogurt</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/che-tao-xon.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/che-tao-xon.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4464.jpg" alt="Chè Tào Xọn">
           </div>
@@ -448,11 +449,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Chè Tào Xọn</div>
             <div class="recipe-card-english">Mung Bean Dessert</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/rau-cau-la-dua.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/rau-cau-la-dua.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4483.jpg" alt="Rau Câu Lá Dứa">
           </div>
@@ -460,11 +461,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Rau Câu Lá Dứa</div>
             <div class="recipe-card-english">Pandan Jelly</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/chuoi-nep-nuong.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/chuoi-nep-nuong.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4484.jpg" alt="Chuối Nếp Nướng">
           </div>
@@ -472,11 +473,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Chuối Nếp Nướng</div>
             <div class="recipe-card-english">Grilled Sticky Rice with Banana</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/dau-cau-nuoc-dua.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/dau-cau-nuoc-dua.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4486.jpg" alt="Đậu Câu Nước Dừa">
           </div>
@@ -484,11 +485,11 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Đậu Câu Nước Dừa</div>
             <div class="recipe-card-english">Coconut Water Jelly</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/thach-trai-cam.html" class="recipe-card" data-cook="me" data-category="desserts">
+        <a href="recipes/thach-trai-cam.html" class="recipe-card" data-cook="me-oanh" data-category="desserts">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4497.jpg" alt="Thạch Trái Cam">
           </div>
@@ -496,13 +497,13 @@
             <div class="recipe-card-category">Desserts</div>
             <div class="recipe-card-title">Thạch Trái Cam</div>
             <div class="recipe-card-english">Orange Jelly</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
         <!-- ═══ Cơm & Xôi ═══ -->
 
-        <a href="recipes/com-chien.html" class="recipe-card" data-cook="me" data-category="com">
+        <a href="recipes/com-chien.html" class="recipe-card" data-cook="me-oanh" data-category="com">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4469.jpg" alt="Cơm Chiên">
           </div>
@@ -510,11 +511,11 @@
             <div class="recipe-card-category">Cơm & Xôi</div>
             <div class="recipe-card-title">Cơm Chiên</div>
             <div class="recipe-card-english">Vietnamese Fried Rice</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/com-ga-siu-siu.html" class="recipe-card" data-cook="me" data-category="com">
+        <a href="recipes/com-ga-siu-siu.html" class="recipe-card" data-cook="me-oanh" data-category="com">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4502.jpg" alt="Cơm Gà Siu Siu">
           </div>
@@ -522,11 +523,11 @@
             <div class="recipe-card-category">Cơm & Xôi</div>
             <div class="recipe-card-title">Cơm Gà Siu Siu</div>
             <div class="recipe-card-english">Hainanese-Style Chicken Rice</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/xoi-ga.html" class="recipe-card" data-cook="me" data-category="com">
+        <a href="recipes/xoi-ga.html" class="recipe-card" data-cook="me-oanh" data-category="com">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4474.jpg" alt="Xôi Gà">
           </div>
@@ -534,13 +535,13 @@
             <div class="recipe-card-category">Cơm & Xôi</div>
             <div class="recipe-card-title">Xôi Gà</div>
             <div class="recipe-card-english">Sticky Rice with Chicken</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
         <!-- ═══ Đồ Chua ═══ -->
 
-        <a href="recipes/dua-muoi.html" class="recipe-card" data-cook="me" data-category="do-chua">
+        <a href="recipes/dua-muoi.html" class="recipe-card" data-cook="me-oanh" data-category="do-chua">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4444.jpg" alt="Dưa Muối">
           </div>
@@ -548,11 +549,11 @@
             <div class="recipe-card-category">Đồ Chua</div>
             <div class="recipe-card-title">Dưa Muối</div>
             <div class="recipe-card-english">Vietnamese Pickled Vegetables</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/dua-bap-cai.html" class="recipe-card" data-cook="me" data-category="do-chua">
+        <a href="recipes/dua-bap-cai.html" class="recipe-card" data-cook="me-oanh" data-category="do-chua">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4445.jpg" alt="Dưa Bắp Cải">
           </div>
@@ -560,11 +561,11 @@
             <div class="recipe-card-category">Đồ Chua</div>
             <div class="recipe-card-title">Dưa Bắp Cải</div>
             <div class="recipe-card-english">Pickled Cabbage</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/dua-mam.html" class="recipe-card" data-cook="me" data-category="do-chua">
+        <a href="recipes/dua-mam.html" class="recipe-card" data-cook="me-oanh" data-category="do-chua">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4466.jpg" alt="Dưa Mắm">
           </div>
@@ -572,11 +573,11 @@
             <div class="recipe-card-category">Đồ Chua</div>
             <div class="recipe-card-title">Dưa Mắm</div>
             <div class="recipe-card-english">Fermented Vegetables</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/muoi-dua-gia.html" class="recipe-card" data-cook="me" data-category="do-chua">
+        <a href="recipes/muoi-dua-gia.html" class="recipe-card" data-cook="me-oanh" data-category="do-chua">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4470.jpg" alt="Muối Dưa Giá">
           </div>
@@ -584,11 +585,11 @@
             <div class="recipe-card-category">Đồ Chua</div>
             <div class="recipe-card-title">Muối Dưa Giá</div>
             <div class="recipe-card-english">Pickled Bean Sprouts</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/dua-cai-cay.html" class="recipe-card" data-cook="me" data-category="do-chua">
+        <a href="recipes/dua-cai-cay.html" class="recipe-card" data-cook="me-oanh" data-category="do-chua">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4501.jpg" alt="Dưa Cải Cay">
           </div>
@@ -596,13 +597,13 @@
             <div class="recipe-card-category">Đồ Chua</div>
             <div class="recipe-card-title">Dưa Cải Cay</div>
             <div class="recipe-card-english">Pickled Mustard Greens</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
         <!-- ═══ Nước Chấm ═══ -->
 
-        <a href="recipes/nuoc-cham.html" class="recipe-card" data-cook="me" data-category="nuoc-cham">
+        <a href="recipes/nuoc-cham.html" class="recipe-card" data-cook="me-oanh" data-category="nuoc-cham">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4444.jpg" alt="Nước Chấm">
           </div>
@@ -610,11 +611,11 @@
             <div class="recipe-card-category">Nước Chấm</div>
             <div class="recipe-card-title">Nước Chấm</div>
             <div class="recipe-card-english">Vietnamese Dipping Sauce</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
           </div>
         </a>
 
-        <a href="recipes/sauce-chua-ngot.html" class="recipe-card" data-cook="me" data-category="nuoc-cham">
+        <a href="recipes/sauce-chua-ngot.html" class="recipe-card" data-cook="me-oanh" data-category="nuoc-cham">
           <div class="recipe-card-image">
             <img src="images/scans/IMG_4460.jpg" alt="Sauce Chua Ngọt">
           </div>
@@ -622,7 +623,177 @@
             <div class="recipe-card-category">Nước Chấm</div>
             <div class="recipe-card-title">Sauce Chua Ngọt</div>
             <div class="recipe-card-english">Sweet & Sour Sauce</div>
-            <div class="recipe-card-from">From Mẹ — Kim Oanh</div>
+            <div class="recipe-card-from">From Mẹ — Oanh</div>
+          </div>
+        </a>
+
+        <!-- ═══ Mẹ Thịnh ═══ -->
+
+        <a href="recipes/canh-ga-me-thinh.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Cánh Gà Chiên</div>
+            <div class="recipe-card-english">Crispy Batter Fried Chicken Wings</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/oc-nuong-me-thinh.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Ốc Nướng</div>
+            <div class="recipe-card-english">Broiled Mussels with Ginger & Peanuts</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/thit-nuong-com-tam.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Thịt Nướng Marinade</div>
+            <div class="recipe-card-english">Pork Marinade for Bún Thịt Nướng & Cơm Tấm</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/cha-trung.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Chả Trứng</div>
+            <div class="recipe-card-english">Steamed Pork & Egg Loaf</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/com-tam.html" class="recipe-card" data-cook="me-thinh" data-category="com">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Cơm & Xôi</div>
+            <div class="recipe-card-title">Cơm Tấm</div>
+            <div class="recipe-card-english">Broken Rice</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/bi-com-tam.html" class="recipe-card" data-cook="me-thinh" data-category="com">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Cơm & Xôi</div>
+            <div class="recipe-card-title">Bì</div>
+            <div class="recipe-card-english">Shredded Pork Skin for Cơm Tấm</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/ca-nuong-me-thinh.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Cá Nướng</div>
+            <div class="recipe-card-english">Baked & Broiled Catfish</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/thit-kho-trung-me-thinh.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Thịt Kho Trứng</div>
+            <div class="recipe-card-english">Braised Pork & Eggs</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/ca-ri-ga-khoai-tay.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Cà Ri Gà Khoai Tây</div>
+            <div class="recipe-card-english">Chicken & Potato Yellow Curry</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/steak-marinade.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Steak Marinade</div>
+            <div class="recipe-card-english">Simple Steak Marinade</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/vit-quay.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Vịt Quay</div>
+            <div class="recipe-card-english">Roast Duck</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/do-chua-carrot-daikon.html" class="recipe-card" data-cook="me-thinh" data-category="do-chua">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Đồ Chua</div>
+            <div class="recipe-card-title">Đồ Chua</div>
+            <div class="recipe-card-english">Pickled Carrot & Daikon</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/cha-gio-me-thinh.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Chả Giò</div>
+            <div class="recipe-card-english">Fried Egg Rolls (Large Batch)</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
+          </div>
+        </a>
+
+        <a href="recipes/hoanh-thanh-tom.html" class="recipe-card" data-cook="me-thinh" data-category="mon-man">
+          <div class="recipe-card-image recipe-card-image--placeholder">
+            <span class="placeholder-icon" aria-hidden="true">❦</span>
+          </div>
+          <div class="recipe-card-body">
+            <div class="recipe-card-category">Món Mặn</div>
+            <div class="recipe-card-title">Hoành Thánh Tôm</div>
+            <div class="recipe-card-english">Shrimp Wontons</div>
+            <div class="recipe-card-from">From Mẹ Thịnh</div>
           </div>
         </a>
 
@@ -645,11 +816,11 @@
         </ul>
       </div>
       <div class="footer-bottom">
-        <p>Made with love · Làm với tình thương</p>
+        <p>Made with love · Làm với tình thương · by Kathy Trương</p>
       </div>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=3"></script>
 </body>
 </html>
