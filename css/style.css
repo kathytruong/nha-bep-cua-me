@@ -532,11 +532,25 @@ nav .container {
 
 /* ─── Filter Tabs ─── */
 
+.filter-group {
+  margin-bottom: 28px;
+}
+
+.filter-group-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
 .filter-tabs {
   display: flex;
   gap: 12px;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   flex-wrap: wrap;
 }
 
@@ -561,6 +575,91 @@ nav .container {
   background: var(--primary);
   color: var(--primary-foreground);
   border-color: var(--primary);
+}
+
+#recipeGrid {
+  margin-top: 32px;
+}
+
+/* ─── Cooks Section ─── */
+
+.cooks {
+  padding: 60px 0 20px;
+}
+
+.cooks .section-header-row {
+  align-items: flex-start;
+}
+
+.cooks-intro {
+  max-width: 420px;
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.cooks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cook-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 32px 28px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.cook-card:hover {
+  transform: translateY(-2px);
+  border-color: oklch(0.5 0.14 35 / 0.35);
+  box-shadow: var(--shadow-soft);
+}
+
+.cook-avatar {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, oklch(0.94 0.02 75), oklch(0.88 0.06 75));
+  border: 2px solid oklch(0.88 0.025 70 / 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--terracotta);
+}
+
+.cook-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--terracotta);
+  margin-bottom: 4px;
+}
+
+.cook-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  color: var(--deep-brown);
+  margin-bottom: 10px;
+}
+
+.cook-desc {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  line-height: 1.6;
+  max-width: 260px;
+  margin: 0 auto;
 }
 
 /* ─── Stories Page ─── */
@@ -985,19 +1084,30 @@ footer {
 
 .page-header {
   text-align: center;
-  padding: 48px 0 32px;
+  padding: 48px 0 24px;
 }
 
 .page-header h1 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   color: var(--deep-brown);
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
 }
 
 .page-header .page-sub {
   font-family: 'Dancing Script', cursive;
   color: var(--terracotta);
   font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.page-header-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 300;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 /* ─── Responsive ─── */
@@ -1098,6 +1208,14 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+  }
+
+  .cooks-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cooks .see-all {
+    margin-top: 8px;
   }
 }
 
