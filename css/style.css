@@ -919,7 +919,13 @@ nav .container {
   font-family: 'Dancing Script', cursive;
   color: var(--terracotta);
   font-size: 1.05rem;
-  margin-bottom: 28px;
+  margin-bottom: 0;
+}
+
+.recipe-detail .recipe-yield {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 0;
 }
 
 .recipe-meta {
@@ -928,11 +934,12 @@ nav .container {
   padding: 20px 0;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  margin-top: 28px;
   margin-bottom: 36px;
 }
 
 .recipe-meta-item {
-  text-align: center;
+  text-align: left;
 }
 
 .recipe-meta-item .meta-label {

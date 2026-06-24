@@ -8,7 +8,7 @@ RECIPES_DIR = ROOT / "recipes"
 
 COOK = "me-thinh"
 FROM = "From Mẹ Thịnh"
-CSS = "../css/style.css?v=7"
+CSS = "../css/style.css?v=9"
 
 RECIPES = [
     {
@@ -17,9 +17,6 @@ RECIPES = [
         "english": "Crispy Batter Fried Chicken Wings",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "30 min + chill",
-        "cook": "20 min",
-        "servings": "4–6",
         "ingredients": [
             "2 lb chicken wings",
             "Salt, for cleaning the chicken",
@@ -44,9 +41,6 @@ RECIPES = [
         "english": "Broiled Mussels with Ginger & Peanuts",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "20 min",
-        "cook": "10 min",
-        "servings": "4",
         "ingredients": [
             "Mussels, top shell removed",
             "Fresh ginger, sliced — for stir-frying",
@@ -72,9 +66,6 @@ RECIPES = [
         "english": "Pork Marinade for Bún Thịt Nướng & Cơm Tấm",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "20 min + marinate",
-        "cook": "15 min",
-        "servings": "4–6",
         "ingredients": [
             "1 lb pork shoulder, or thin-cut bone-in pork chop (will be drier)",
             "1–2 spoons condensed milk or half-and-half, to tenderize",
@@ -99,12 +90,10 @@ RECIPES = [
     {
         "slug": "cha-trung",
         "title": "Chả Trứng",
+        "yield": "Serves 4",
         "english": "Steamed Pork & Egg Loaf",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "20 min",
-        "cook": "30 min",
-        "servings": "4",
         "ingredients": [
             "¼ lb ground pork",
             "¼ onion, chopped",
@@ -127,9 +116,6 @@ RECIPES = [
         "english": "Broken Rice",
         "category": "com",
         "category_label": "Cơm & Xôi",
-        "prep": "20 min",
-        "cook": "25 min",
-        "servings": "4–6",
         "ingredients": [
             "Regular long-grain rice",
             "Water — to the first crease of your pointer finger when resting on the rice",
@@ -147,9 +133,6 @@ RECIPES = [
         "english": "Shredded Pork Skin for Cơm Tấm",
         "category": "com",
         "category_label": "Cơm & Xôi",
-        "prep": "30 min",
-        "cook": "20 min",
-        "servings": "6–8",
         "ingredients": [
             "1 lb pork shoulder",
             "Salt and garlic powder (about 1 tbsp)",
@@ -170,9 +153,6 @@ RECIPES = [
         "english": "Baked & Broiled Catfish",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "15 min",
-        "cook": "55 min",
-        "servings": "4",
         "ingredients": [
             "Catfish",
             "Garlic powder",
@@ -192,9 +172,6 @@ RECIPES = [
         "english": "Braised Pork & Eggs",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "30 min",
-        "cook": "1.5 hours",
-        "servings": "4–6",
         "ingredients": [
             "Eggs — boil and peel",
             "Pork shoulder — trim excess fat",
@@ -221,9 +198,6 @@ RECIPES = [
         "english": "Chicken & Potato Yellow Curry",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "15 min + marinate",
-        "cook": "40 min",
-        "servings": "4–6",
         "ingredients": [
             "Chicken",
             "Curry powder",
@@ -248,9 +222,6 @@ RECIPES = [
         "english": "Simple Steak Marinade",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "5 min",
-        "cook": "—",
-        "servings": "4",
         "ingredients": [
             "Soy sauce",
             "Oyster sauce",
@@ -268,9 +239,6 @@ RECIPES = [
         "english": "Roast Duck",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "See video",
-        "cook": "See video",
-        "servings": "6–8",
         "ingredients": [
             "Whole duck",
             "Follow Maclam's Kitchen roast duck recipe on YouTube",
@@ -290,9 +258,6 @@ RECIPES = [
         "english": "Pickled Carrot & Daikon",
         "category": "do-chua",
         "category_label": "Đồ Chua",
-        "prep": "20 min",
-        "cook": "2 hours rest",
-        "servings": "1 jar",
         "ingredients": [
             "1 medium/small daikon",
             "2 medium carrots",
@@ -315,9 +280,6 @@ RECIPES = [
         "english": "Fried Egg Rolls (Large Batch)",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "2 hours",
-        "cook": "1 hour",
-        "servings": "100 small + 200 large",
         "ingredients": [
             "3 lb carrots",
             "3 large jicama (củ sắn), about 5 lb each",
@@ -354,9 +316,6 @@ RECIPES = [
         "english": "Shrimp Wontons",
         "category": "mon-man",
         "category_label": "Món Mặn",
-        "prep": "30 min",
-        "cook": "10 min",
-        "servings": "4–6",
         "ingredients": [
             "Shrimp",
             "Chicken base",
@@ -383,6 +342,10 @@ def render_page(recipe):
     instructions = "".join(
         f'          <li><span>{step}</span></li>\n' for step in recipe["instructions"]
     )
+    yield_block = ""
+    if recipe.get("yield"):
+        yield_block = f'      <p class="recipe-yield">{recipe["yield"]}</p>\n\n'
+
     tip_block = ""
     if recipe.get("tip"):
         tip_block = f"""
@@ -423,19 +386,7 @@ def render_page(recipe):
       <p class="english-name">{recipe["english"]}</p>
       <p class="recipe-from">{FROM}</p>
 
-      <div class="recipe-meta">
-        <div class="recipe-meta-item">
-          <div class="meta-label">Prep Time</div>
-          <div class="meta-value">{recipe["prep"]}</div>
-        </div>
-        <div class="recipe-meta-item">
-          <div class="meta-label">Cook Time</div>
-          <div class="meta-value">{recipe["cook"]}</div>
-        </div>
-        <div class="recipe-meta-item">
-          <div class="meta-label">Servings</div>
-          <div class="meta-value">{recipe["servings"]}</div>
-        </div>
+{yield_block}      <div class="recipe-meta">
         <div class="recipe-meta-item">
           <div class="meta-label">Category</div>
           <div class="meta-value">{recipe["category_label"]}</div>
