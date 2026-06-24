@@ -719,6 +719,33 @@ nav .container {
   margin-top: 12px;
 }
 
+/* ─── Original Recipe Scan ─── */
+
+.original-scan {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.original-scan-label {
+  font-family: 'Dancing Script', cursive;
+  color: var(--terracotta);
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.original-scan-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.original-scan-images img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
 /* ─── Recipe Detail Page ─── */
 
 .recipe-detail {
