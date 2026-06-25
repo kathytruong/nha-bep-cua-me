@@ -1,0 +1,60 @@
+{
+  "slug": "banh-su-kem",
+  "title": "Bánh Su Kem",
+  "english": "Cream Puffs",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "banh",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Vỏ bánh · Choux Shell",
+          "items": [
+            "1 cup water",
+            "1 stick (1/2 cup) salted butter",
+            "1/4 teaspoon salt",
+            "1 cup all-purpose flour",
+            "4 large eggs"
+          ]
+        },
+        {
+          "heading": "Kem · Custard Filling",
+          "items": [
+            "2 1/2 cups half & half",
+            "1 teaspoon vanilla extract",
+            "4 egg yolks",
+            "1/2 cup sugar",
+            "4 tablespoons all-purpose flour",
+            "1/4 teaspoon salt"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Preheat oven to 400°F (200°C). Line a baking sheet with parchment paper.",
+        "In a medium saucepan, bring the water, butter, and salt to a rolling boil over medium-high heat. Make sure the butter is fully melted before the water boils.",
+        "Remove from heat and add the flour all at once. Stir vigorously with a wooden spoon until the dough pulls away from the sides of the pan and forms a smooth ball.",
+        "Return to medium heat and stir for another 1–2 minutes to dry out the dough slightly. Transfer to a mixing bowl and let cool for 5 minutes.",
+        "Add the eggs one at a time, beating well after each addition. The dough will look like it's breaking apart — keep beating until it comes together smooth and glossy. The final dough should be thick enough to hold its shape but soft enough to pipe.",
+        "Pipe or spoon mounds of dough (about 1 1/2 inches across) onto the baking sheet, spacing them 2 inches apart.",
+        "Bake at 400°F for 15 minutes, then reduce heat to 350°F (175°C) and bake for another 30 minutes until golden brown and puffed. Do not open the oven door during the first 20 minutes or they may collapse.",
+        "Remove from oven and poke a small hole in the bottom of each puff to release steam. Let cool completely on a wire rack."
+      ]
+    }
+  ],
+  "grid_order": 17,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4443.jpg",
+      "alt": "Original handwritten recipe for Bánh Su Kem"
+    }
+  ],
+  "card_image": "images/scans/IMG_4443.jpg",
+  "card_image_alt": "Bánh Su Kem"
+}

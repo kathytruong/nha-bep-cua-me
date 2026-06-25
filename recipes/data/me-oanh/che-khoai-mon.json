@@ -1,0 +1,44 @@
+{
+  "slug": "che-khoai-mon",
+  "title": "Chè Khoai Môn",
+  "english": "Taro Sweet Soup",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "desserts",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 pound taro (khoai môn), peeled and cut into small pieces",
+        "1 cup sticky rice (gạo nếp), rinsed",
+        "1 can (13.5 oz) coconut cream (nước cốt dừa)",
+        "2 cups sugar, or to taste (đường)",
+        "6–10 cups water",
+        "Pinch of salt (muối)"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Rinse the sticky rice and soak it for at least 1 hour. This helps it cook evenly and become properly soft in the chè.",
+        "Peel the taro, cut into small pieces, and steam until tender.",
+        "Rinse the sticky rice. Bring the water to a boil. Add the sticky rice and cook until soft, stirring gently.",
+        "Add the sugar and salt. Stir until the sugar dissolves. Reduce heat to low.",
+        "When the taro is nearly done, add it to the pot. Stir gently.",
+        "Add the coconut cream and stir to combine. Simmer together briefly.",
+        "Serve warm in bowls."
+      ]
+    }
+  ],
+  "grid_order": 29,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4461.jpg",
+      "alt": "Original handwritten recipe for Chè Khoai Môn"
+    }
+  ],
+  "card_image": "images/scans/IMG_4461.jpg",
+  "card_image_alt": "Chè Khoai Môn"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "oc-nuong-me-thinh",
+  "title": "Ốc Nướng",
+  "english": "Broiled Mussels with Ginger & Peanuts",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Mussels, top shell removed",
+        "Fresh ginger, sliced — for stir-frying",
+        "Green onions",
+        "Oyster sauce",
+        "Sugar",
+        "Garlic",
+        "Black pepper",
+        "Oil, if needed",
+        "Peanuts"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Remove the top shell from each mussel.",
+        "Stir-fry ginger until fragrant.",
+        "Mix green onions with oyster sauce, sugar, garlic, and pepper. Add oil if the mixture needs it.",
+        "Spoon the mixture onto each mussel. Top with peanuts.",
+        "Broil for about 5 minutes, until bubbling and lightly charred."
+      ]
+    }
+  ],
+  "grid_order": 47,
+  "card_placeholder": true
+}

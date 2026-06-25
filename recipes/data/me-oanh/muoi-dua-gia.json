@@ -1,0 +1,43 @@
+{
+  "slug": "muoi-dua-gia",
+  "title": "Muối Dưa Giá",
+  "english": "Pickled Bean Sprouts",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "do-chua",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 lb bean sprouts (giá), washed and drained",
+        "1 bunch chives (hẹ), cut into 2-inch pieces",
+        "1 carrot (cà rốt), peeled and julienned",
+        "1 tablespoon salt (muối)",
+        "A small pinch of alum (phèn chua) — this keeps the bean sprouts crunchy",
+        "Water, enough to submerge"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Wash the bean sprouts and drain well. Peel and julienne the carrot into thin matchsticks. Cut the chives into pieces.",
+        "Toss the bean sprouts, chives, and carrot together in a large bowl with the salt and the pinch of alum. Mix everything together.",
+        "Pack the mixture tightly into a clean glass jar. Press down firmly.",
+        "Add enough warm water to just cover the vegetables. Place a weight on top to keep everything submerged.",
+        "Cover and leave at room temperature for about 3 days until sour.",
+        "Transfer to the refrigerator once it's sour enough. Serve as a side dish."
+      ]
+    }
+  ],
+  "grid_order": 42,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4470.jpg",
+      "alt": "Original handwritten recipe for Muối Dưa Giá"
+    }
+  ],
+  "card_image": "images/scans/IMG_4470.jpg",
+  "card_image_alt": "Muối Dưa Giá"
+}

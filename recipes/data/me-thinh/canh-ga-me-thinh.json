@@ -1,0 +1,35 @@
+{
+  "slug": "canh-ga-me-thinh",
+  "title": "Cánh Gà Chiên",
+  "english": "Crispy Batter Fried Chicken Wings",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "2 lb chicken wings",
+        "Salt, for cleaning the chicken",
+        "Soy sauce, pepper, garlic powder, sugar, and chicken base — ratio 1 : 1 : 2 (chicken base : sugar : soy sauce), mixed well",
+        "For the batter: about half a bowl of water",
+        "Flour and cornstarch, 5 : 1",
+        "Garlic powder, chicken base, and sugar — about ½ spoon each, stirred into the batter",
+        "Oil, for frying"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Clean the chicken wings with salt.",
+        "Mix with soy sauce, pepper, garlic powder, sugar, and chicken base using the 1 : 1 : 2 ratio. Mix well and leave in the fridge to marinate.",
+        "Make the batter: combine water, flour, and cornstarch (5 : 1) and mix until smooth.",
+        "Stir garlic powder, chicken base, and sugar (about ½ spoon each) into the batter.",
+        "Pour the batter over the chicken and coat well.",
+        "Heat oil on high, then reduce to medium when frying. Fry until golden and cooked through."
+      ]
+    }
+  ],
+  "grid_order": 46,
+  "card_placeholder": true
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "thit-kho-trung",
+  "title": "Thịt Kho Trứng",
+  "english": "Caramelized Pork & Eggs",
+  "cook": "di-huong",
+  "cook_label": "From Dì Hương",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "2 lbs pork belly, cut into 1.5-inch chunks",
+        "6 hard-boiled eggs, peeled",
+        "¼ cup sugar (for caramel)",
+        "3 tablespoons fish sauce (nước mắm)",
+        "1 tablespoon soy sauce",
+        "1 can (13.5 oz) coconut water (nước dừa) or fresh young coconut juice",
+        "3 cloves garlic, minced",
+        "2 shallots, thinly sliced",
+        "1 teaspoon black pepper",
+        "Steamed jasmine rice, for serving"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Marinate the pork: Toss pork belly with garlic, shallots, fish sauce, soy sauce, and black pepper. Let it sit for at least 15 minutes — Dì Hương would do it the night before.",
+        "Make the caramel: In a heavy-bottomed pot or clay pot, add sugar with 2 tablespoons of water. Cook over medium heat without stirring until it turns a deep amber color. Watch it carefully — it goes from perfect to burnt in seconds.",
+        "Add the pork: Carefully add the marinated pork to the caramel (it will bubble and spatter). Stir to coat the pork evenly in the caramel. Cook for 3–4 minutes until the pork is seared on all sides.",
+        "Braise: Pour in the coconut water. It should nearly cover the pork. Bring to a boil, then reduce heat to low. Cover and simmer for about 45 minutes.",
+        "Add the eggs: Nestle the hard-boiled eggs into the pot. Continue simmering uncovered for another 30–40 minutes, until the pork is very tender and the sauce has reduced to a dark, glossy glaze.",
+        "Taste and adjust: Add more fish sauce if needed. The sauce should be savory-sweet and deeply caramelized.",
+        "Serve over steamed jasmine rice with the sauce spooned over everything. Dì Hương always said it's better the next day — and she was right."
+      ]
+    }
+  ],
+  "grid_order": 3,
+  "hero_image": "../images/kho.jpeg",
+  "hero_alt": "Thịt Kho Trứng - Caramelized Pork",
+  "tip_label": "Dì Hương's tip",
+  "tip": "\"Don't be afraid of the caramel — you want it dark, almost like coffee. That's where the flavor is. And always use coconut water, not coconut milk. Coconut milk makes it too heavy.\" She also insisted on making extra sauce because the kids would fight over it with their rice.",
+  "memorial": "A recipe from Dì Hương's kitchen",
+  "card_image": "images/kho.jpeg",
+  "card_image_alt": "Thịt Kho Trứng"
+}

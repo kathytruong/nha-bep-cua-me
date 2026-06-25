@@ -1,0 +1,49 @@
+{
+  "slug": "sauce-chua-ngot",
+  "title": "Sauce Chua Ngọt",
+  "english": "Sweet & Sour Sauce",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "nuoc-cham",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "2 teaspoons tương xì muội (plum sauce)",
+        "2 tablespoons dark corn syrup",
+        "5 tablespoons soy sauce (nước tương)",
+        "2 tablespoons vinegar (dấm)",
+        "2 tablespoons cornstarch (bột bắp)",
+        "5 tablespoons ketchup",
+        "4 tablespoons sugar (đường)",
+        "&#8531; teaspoon MSG (bột ngọt)",
+        "&#189; teaspoon salt (muối)",
+        "Water, to taste (tùy gia giảm)",
+        "2–3 cloves garlic (tỏi), minced",
+        "Ground chili (ớt xay), to taste"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "In a bowl, whisk together the cornstarch with a splash of water until smooth — this prevents lumps when you add it to the sauce later.",
+        "Combine the plum sauce, dark corn syrup, soy sauce, vinegar, ketchup, sugar, MSG, and salt in a saucepan. Add water to adjust the consistency (tùy gia giảm — adjust to taste).",
+        "Bring the mixture to a gentle boil over medium heat, stirring constantly. Add the minced garlic and ground chili.",
+        "Stir in the cornstarch slurry. Keep stirring as the sauce thickens — it should become glossy and coat the back of a spoon nicely. If it's too thick, add a little more water.",
+        "Taste and adjust the balance of sweet, sour, and salty.",
+        "Serve warm alongside fried shrimp cakes (bánh tôm chiên) or other fried dishes. This batch makes enough for about 50 bánh tôm chiên."
+      ]
+    }
+  ],
+  "grid_order": 45,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4460.jpg",
+      "alt": "Original handwritten recipe for Sauce Chua Ngọt"
+    }
+  ],
+  "card_image": "images/scans/IMG_4460.jpg",
+  "card_image_alt": "Sauce Chua Ngọt"
+}

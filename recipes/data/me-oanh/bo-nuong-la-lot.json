@@ -1,0 +1,46 @@
+{
+  "slug": "bo-nuong-la-lot",
+  "title": "Bò Nướng Lá Lốt",
+  "english": "Beef Wrapped in Betel Leaves",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Để ăn kèm · To Serve",
+          "items": [
+            "Rice vermicelli (bún)",
+            "Rice paper (bánh tráng)",
+            "Fresh herbs — lettuce, perilla (tía tô), mint",
+            "Pickled carrots and daikon (đồ chua)",
+            "Nước chấm dipping sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "In a large bowl, combine the ground beef with garlic, lemongrass, chili, onion, soy sauce, salt, MSG, sugar, and black pepper. Mix thoroughly with your hands until everything is well incorporated. Let it marinate for 15 minutes.",
+        "Take a betel leaf, shiny side down. Place about 1 tablespoon of the beef mixture near the stem end. Roll it up tightly, tucking in the sides as you go — like a tiny burrito. The leaf should wrap around at least once. Secure with a toothpick if needed.",
+        "Repeat until all the beef is used.",
+        "Bake at 400°F, turning occasionally, until the beef is cooked through and the leaves are slightly charred and fragrant.",
+        "Serve with rice vermicelli, fresh herbs, pickled vegetables, and nước chấm. Wrap everything in rice paper."
+      ]
+    }
+  ],
+  "grid_order": 7,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4471.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4471.jpg",
+  "card_image_alt": "Bò Nướng Lá Lốt"
+}

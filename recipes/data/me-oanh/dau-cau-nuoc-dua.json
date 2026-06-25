@@ -1,0 +1,43 @@
+{
+  "slug": "dau-cau-nuoc-dua",
+  "title": "Đậu Câu Nước Dừa",
+  "english": "Coconut Water Jelly",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "desserts",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 fresh coconut — use the water inside (nước dừa tươi), about 1–1.5 cups",
+        "1 cup water",
+        "1 can (13.5 oz) coconut cream (nước cốt dừa)",
+        "¾ cup sugar (đường), or to taste",
+        "Agar-agar powder (bột rau câu)",
+        "Pinch of salt"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Layer 1: Crack open the fresh coconut and pour the water into a pot. Add the cup of water and the sugar. Add the agar-agar powder and a pinch of salt.",
+        "Bring the mixture to a boil over medium heat, stirring constantly until the agar-agar dissolves completely. Stir well until fully dissolved.",
+        "Pour into a mold and let the first layer begin to set.",
+        "Layer 2: Heat the coconut cream. Once the first layer has partially set, pour the coconut cream layer on top.",
+        "Let it cool to room temperature, then refrigerate until fully set, about 2–3 hours.",
+        "Once set, cut into pieces or unmold onto a plate. Serve chilled."
+      ]
+    }
+  ],
+  "grid_order": 34,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4486.jpg",
+      "alt": "Original handwritten recipe for Đậu Câu Nước Dừa"
+    }
+  ],
+  "card_image": "images/scans/IMG_4486.jpg",
+  "card_image_alt": "Đậu Câu Nước Dừa"
+}

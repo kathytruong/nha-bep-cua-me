@@ -1,0 +1,28 @@
+{
+  "slug": "steak-marinade",
+  "title": "Steak Marinade",
+  "english": "Simple Steak Marinade",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Soy sauce",
+        "Oyster sauce",
+        "Black pepper",
+        "Garlic"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Combine soy sauce, oyster sauce, pepper, and garlic.",
+        "Marinate steak for at least 30 minutes before cooking."
+      ]
+    }
+  ],
+  "grid_order": 55,
+  "card_placeholder": true
+}

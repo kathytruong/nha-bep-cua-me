@@ -1,0 +1,53 @@
+{
+  "slug": "banh-chuoi",
+  "title": "Bánh Chuối Nướng",
+  "english": "Banana Cake",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "banh",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "4 large eggs",
+        "2 cups sugar",
+        "2 cups vegetable oil",
+        "1 large ripe banana, mashed",
+        "1 medium zucchini, grated",
+        "3 cups all-purpose flour",
+        "1 1/2 teaspoons baking soda",
+        "1 1/2 teaspoons baking powder",
+        "2 teaspoons cinnamon",
+        "1/2 teaspoon salt",
+        "1 cup chopped dates or raisins",
+        "1 teaspoon vanilla extract"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Preheat oven to 350°F (175°C). Grease and flour two 9x5-inch loaf pans or one large bundt pan.",
+        "In a large bowl, beat the eggs and sugar together until light and fluffy, about 3 minutes. Gradually add the oil, mixing until well combined.",
+        "Mash the banana until smooth and grate the zucchini. Add both to the egg mixture along with the vanilla. Mix well.",
+        "In a separate bowl, whisk together the flour, baking soda, baking powder, cinnamon, and salt.",
+        "Add the dry ingredients to the wet ingredients, stirring just until combined. Do not overmix.",
+        "Fold in the chopped dates or raisins.",
+        "Divide the batter between the prepared pans, filling each about two-thirds full.",
+        "Bake at 350°F for 45 minutes, or until a toothpick inserted in the center comes out clean. The top should be golden brown and springy to the touch.",
+        "Let cool in the pans for 10 minutes, then turn out onto a wire rack to cool completely.",
+        "Slice and serve warm or at room temperature. This cake keeps well wrapped — it gets even more moist the next day."
+      ]
+    }
+  ],
+  "grid_order": 20,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4449.jpg",
+      "alt": "Original handwritten recipe for Bánh Chuối Nướng"
+    }
+  ],
+  "card_image": "images/scans/IMG_4449.jpg",
+  "card_image_alt": "Bánh Chuối Nướng"
+}

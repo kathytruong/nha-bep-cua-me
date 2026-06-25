@@ -1,0 +1,50 @@
+{
+  "slug": "com-chien",
+  "title": "Cơm Chiên",
+  "english": "Vietnamese Fried Rice",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "com",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "4 cups cooked jasmine rice, day-old and cold (cơm nguội)",
+        "3 eggs",
+        "½ lb shrimp, peeled and deveined",
+        "½ cup corn kernels",
+        "½ cup green peas",
+        "2 tablespoons dark soy sauce (xì dầu đen)",
+        "1 tablespoon oyster sauce (dầu hào)",
+        "½ teaspoon salt",
+        "½ teaspoon MSG (bột ngọt)",
+        "½ teaspoon sugar",
+        "3 tablespoons cooking oil",
+        "2 stalks green onion, chopped (for garnish)"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Stir-fry the shrimp separately in a little oil until cooked through. Set aside.",
+        "Beat the eggs with a little salt until even.",
+        "Pour the eggs into a hot oiled pan and scramble quickly.",
+        "Add the cold rice into the pan on high heat. Break up any clumps and stir well.",
+        "Season the rice with salt, MSG, sugar, dark soy sauce, and oyster sauce. Toss everything together until evenly mixed.",
+        "Add the stir-fried shrimp, corn, and peas. Stir to combine well.",
+        "Garnish with chopped green onion. Serve hot."
+      ]
+    }
+  ],
+  "grid_order": 36,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4469.jpg",
+      "alt": "Original handwritten recipe for Cơm Chiên"
+    }
+  ],
+  "card_image": "images/scans/IMG_4469.jpg",
+  "card_image_alt": "Cơm Chiên"
+}

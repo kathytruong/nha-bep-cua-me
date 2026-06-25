@@ -1,0 +1,30 @@
+{
+  "slug": "ca-nuong-me-thinh",
+  "title": "Cá Nướng",
+  "english": "Baked & Broiled Catfish",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Catfish",
+        "Garlic powder",
+        "Black pepper",
+        "Chicken base",
+        "Oil"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Rub the stomach of the catfish with garlic powder, pepper, and chicken base. Spread with oil.",
+        "Bake at 375°F for 40 minutes.",
+        "Baste again with oil and broil for 12 minutes, until the skin is crispy."
+      ]
+    }
+  ],
+  "grid_order": 52,
+  "card_placeholder": true
+}

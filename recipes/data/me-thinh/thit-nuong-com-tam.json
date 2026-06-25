@@ -1,0 +1,38 @@
+{
+  "slug": "thit-nuong-com-tam",
+  "title": "Thịt Nướng Marinade",
+  "english": "Pork Marinade for Bún Thịt Nướng & Cơm Tấm",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 lb pork shoulder, or thin-cut bone-in pork chop (will be drier)",
+        "1–2 spoons condensed milk or half-and-half, to tenderize",
+        "1 spoon oyster sauce",
+        "1½ spoons sugar",
+        "1 minced shallot",
+        "Garlic",
+        "Black pepper",
+        "½ spoon fish sauce",
+        "Coconut milk — enough to fill to the top of the meat",
+        "Skewers, for bún thịt nướng"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Cut pork shoulder into fillets. For bún thịt nướng, pound the meat until thin.",
+        "Mix the marinade ingredients and coat the meat.",
+        "Pour coconut milk over the meat until it just covers the top.",
+        "Marinate day-of for as long as possible — at least 4 hours.",
+        "For cơm tấm: air fry at 400°F, 7 minutes on each side.",
+        "For bún thịt nướng: thread pounded meat onto skewers and broil until charred at the edges."
+      ]
+    }
+  ],
+  "grid_order": 48,
+  "card_placeholder": true
+}

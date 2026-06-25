@@ -1,0 +1,59 @@
+{
+  "slug": "bo-kho",
+  "title": "Bò Kho",
+  "english": "Vietnamese Beef Stew",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "3 lbs beef chuck or shank, cut into large 2-inch cubes",
+        "5 cloves garlic, minced",
+        "4 shallots (hành tím), thinly sliced",
+        "1 piece ginger (gừng)",
+        "3 stalks lemongrass (sả), bruised and cut into 3-inch pieces",
+        "1 can (13.5 oz) coconut water (nước dừa)",
+        "4 cups chicken broth",
+        "2 cinnamon sticks",
+        "4 star anise (hoa hồi)",
+        "2 tablespoons annatto oil (dầu điều) or 1 tablespoon annatto seeds fried in oil",
+        "2 tablespoons tomato paste",
+        "2 tablespoons fish sauce (nước mắm)",
+        "1 tablespoon sugar",
+        "1 teaspoon five-spice powder (ngũ vị hương)",
+        "2 large carrots, cut into thick chunks",
+        "1 daikon radish, cut into thick chunks (optional)",
+        "Fresh herbs — Thai basil, cilantro, sawtooth herb (ngò gai)",
+        "Bean sprouts and lime wedges, for serving",
+        "French bread (bánh mì) or rice noodles (phở or hủ tiếu)"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Cut the beef into large chunks — don't go too small, they'll shrink as they braise. Pat dry with paper towels.",
+        "Heat annatto oil in a large heavy pot over medium-high heat.",
+        "Fry the sliced shallots, ginger, and lemongrass in the oil until fragrant, about 3–4 minutes.",
+        "Add the garlic and cook for 30 seconds. Then add the beef in batches, searing on all sides until browned. Don't skip this step — the sear locks in flavor.",
+        "Pour in the chicken broth and coconut water. Add tomato paste, fish sauce, sugar, five-spice powder, cinnamon sticks, and star anise. Stir everything together and bring to a boil.",
+        "Reduce heat to low. Cover and let it simmer gently for 1.5–2 hours. The beef should be tender enough to break apart with chopsticks but still hold its shape.",
+        "Add the carrots (and daikon if using) in the last 30 minutes of cooking so they're tender but not mushy.",
+        "Taste and adjust — more fish sauce for salt, sugar to balance. The broth should be rich, aromatic, and slightly sweet from the coconut water.",
+        "Serve in deep bowls with French bread for dipping, or ladle over rice noodles. Top with fresh herbs, bean sprouts, and a squeeze of lime."
+      ]
+    }
+  ],
+  "grid_order": 5,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4499.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4499.jpg",
+  "card_image_alt": "Bò Kho"
+}

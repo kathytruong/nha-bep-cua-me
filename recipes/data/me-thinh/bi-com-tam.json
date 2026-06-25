@@ -1,0 +1,31 @@
+{
+  "slug": "bi-com-tam",
+  "title": "Bì",
+  "english": "Shredded Pork Skin for Cơm Tấm",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "com",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 lb pork shoulder",
+        "Salt and garlic powder (about 1 tbsp)",
+        "Que Huong Bi Tuoi (7 oz) — buy frozen; do not buy dry, which must be soaked first",
+        "Kim Tu Thap Thinh Viet Nam (toasted rice powder)"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Season pork shoulder with salt and garlic powder.",
+        "Pan-fry the pork shoulder, then slice into thin strips.",
+        "Use the full bag of bì. Wash and dry thoroughly.",
+        "Shred the cooked pork, bì, and rice powder together until evenly mixed.",
+        "Serve with cơm tấm and thịt nướng."
+      ]
+    }
+  ],
+  "grid_order": 51,
+  "card_placeholder": true
+}

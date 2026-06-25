@@ -1,0 +1,28 @@
+{
+  "slug": "com-tam",
+  "title": "Cơm Tấm",
+  "english": "Broken Rice",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "com",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Regular long-grain rice",
+        "Water — to the first crease of your pointer finger when resting on the rice"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "To make broken rice from regular rice: soak the rice for 15 minutes.",
+        "Rinse twice.",
+        "Massage the rice gently to break the grains.",
+        "Cook using water to the level of half the first crease of your pointer finger — the usual Vietnamese finger measure."
+      ]
+    }
+  ],
+  "grid_order": 50,
+  "card_placeholder": true
+}

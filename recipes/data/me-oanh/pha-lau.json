@@ -1,0 +1,48 @@
+{
+  "slug": "pha-lau",
+  "title": "Phá Lấu",
+  "english": "Vietnamese Offal Stew",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Để ăn kèm · To Serve",
+          "items": [
+            "French bread (bánh mì) — for dipping",
+            "Steamed rice",
+            "Fresh herbs — Thai basil, cilantro",
+            "Hoisin sauce and Sriracha"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Rub the tripe thoroughly with salt and baking soda, scrubbing every fold. Rinse under cold running water. Repeat 2–3 times until there is no smell.",
+        "Bring a large pot of water to a rolling boil. Add the tripe and boil for 10 minutes. Drain and rinse again under cold water. This double-cleaning ensures the tripe is perfectly clean and tender.",
+        "Cut the cleaned tripe into bite-sized strips, about 2 inches long and ½ inch wide.",
+        "Heat oil in a heavy pot over medium heat. Sauté garlic and shallots until golden and fragrant. Add five-spice powder, star anise, cinnamon stick, and lemongrass. Stir for 1 minute.",
+        "Add the tripe strips and toss to coat in the aromatics. Pour in the soy sauce, fish sauce, and sugar. Stir well and cook for 2–3 minutes.",
+        "Pour in the coconut milk and chicken broth. Bring to a boil, then reduce heat to low. Cover and let it braise gently for 1.5–2 hours, stirring occasionally, until the tripe is very tender and the sauce is rich and creamy.",
+        "Taste and adjust seasoning — the broth should be rich, fragrant, and slightly sweet from the coconut milk, with warmth from the five-spice.",
+        "Serve hot in deep bowls with crusty French bread for dipping into the broth."
+      ]
+    }
+  ],
+  "grid_order": 6,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4489.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4489.jpg",
+  "card_image_alt": "Phá Lấu"
+}

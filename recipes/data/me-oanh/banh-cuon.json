@@ -1,0 +1,81 @@
+{
+  "slug": "banh-cuon",
+  "title": "Bánh Cuốn",
+  "english": "Steamed Rice Rolls",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "banh",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Bột bánh · Batter",
+          "items": [
+            "250g bột gạo (rice flour)",
+            "45g bột khoai tây (potato starch)",
+            "45g tinh bột năng (tapioca starch)",
+            "1 liter water",
+            "1/2 teaspoon salt",
+            "1 tablespoon vegetable oil"
+          ]
+        },
+        {
+          "heading": "Nhân · Filling",
+          "items": [
+            "200g ground pork",
+            "6–8 dried wood ear mushrooms (mộc nhĩ), soaked and minced",
+            "2 shallots, finely minced",
+            "1 tablespoon fish sauce (nước mắm)",
+            "1/2 teaspoon ground black pepper",
+            "1 teaspoon sugar"
+          ]
+        },
+        {
+          "heading": "Nước chấm · Dipping Sauce",
+          "items": [
+            "3 tablespoons fish sauce",
+            "3 tablespoons sugar",
+            "1/2 cup warm water",
+            "1 tablespoon rice vinegar or lime juice",
+            "1 clove garlic, minced",
+            "1 small chili, sliced"
+          ]
+        },
+        {
+          "heading": "Ăn kèm · To Serve",
+          "items": [
+            "Chả lụa (Vietnamese pork sausage), sliced",
+            "Fried shallots (hành phi)",
+            "Fresh herbs: cilantro, Vietnamese mint",
+            "Bean sprouts"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Make the batter: Whisk together the rice flour, potato starch, and tapioca starch with 1 liter of water until completely smooth. Strain through a fine sieve to remove any lumps. Add salt and oil, then let the batter rest for 30 minutes. The potato starch is the \"chìa khoá bí mật\" (secret key) — it gives the bánh its soft, smooth texture.",
+        "Prepare the filling: Soak the wood ear mushrooms in warm water for 20 minutes, then drain and mince finely. Heat a tablespoon of oil in a pan over medium-high heat. Sauté the shallots until fragrant, then add the ground pork. Break it apart and cook until no longer pink. Add the mushrooms, fish sauce, pepper, and sugar. Cook for another 2–3 minutes. Set aside.",
+        "Set up the steamer: Stretch a piece of clean, thin cotton cloth tightly over a pot of boiling water. The cloth should be taut like a drum. Lightly brush the cloth with oil.",
+        "Steam the bánh: Give the batter a good stir (it settles). Pour a thin ladleful onto the oiled cloth, spreading it quickly into a thin, even circle with the back of the ladle. Cover with a lid and steam for about 1–2 minutes, until the sheet turns translucent.",
+        "Roll the bánh: Use a thin, flat spatula or chopstick to carefully peel the rice sheet off the cloth. Place a spoonful of filling along one edge, then gently roll it up. Set seam-side down on a lightly oiled plate.",
+        "Repeat with the remaining batter, oiling the cloth between each sheet.",
+        "Make the nước chấm: Dissolve the sugar in warm water, then add the fish sauce, vinegar or lime juice, garlic, and chili. Adjust to taste — it should be a balance of sweet, salty, and sour.",
+        "Serve the bánh cuốn warm, topped with fried shallots, alongside sliced chả lụa, fresh herbs, and the dipping sauce."
+      ]
+    }
+  ],
+  "grid_order": 16,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4437.jpg",
+      "alt": "Original handwritten recipe for Bánh Cuốn"
+    }
+  ],
+  "card_image": "images/scans/IMG_4437.jpg",
+  "card_image_alt": "Bánh Cuốn"
+}

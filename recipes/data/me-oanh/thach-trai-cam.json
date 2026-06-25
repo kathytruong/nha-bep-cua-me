@@ -1,0 +1,44 @@
+{
+  "slug": "thach-trai-cam",
+  "title": "Thạch Trái Cam",
+  "english": "Orange Jelly",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "desserts",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "9 oranges, firm and round",
+        "4 packets unflavored gelatin (about 1 oz each)",
+        "2 cups water",
+        "Sugar or honey (đường hoặc mật ong), to taste"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Cut the oranges in half crosswise. Carefully squeeze out all the juice into a bowl — use a citrus reamer or your hands, but be gentle with the shells. You want the orange halves to stay intact, like little cups. Strain the juice through a mesh sieve to remove seeds and pulp.",
+        "Clean out the orange shells thoroughly, scraping away any remaining membrane and pulp with a spoon. The inside should be as smooth as possible so the jelly sets cleanly. Try to keep the shells intact.",
+        "Arrange the cleaned orange shells cut-side up in a muffin tin or on a tray where they can sit upright without tipping. This keeps them steady while you pour the liquid in.",
+        "In a small bowl, sprinkle the gelatin packets over ½ cup of cold water. Let it sit for 5 minutes to bloom — the gelatin will absorb the water and turn spongy.",
+        "In a saucepan, combine the orange juice, remaining 1½ cups water, and sugar. Heat over medium until just simmering and the sugar dissolves. Do not boil — boiling can weaken the gelatin. Taste and adjust sweetness. If you prefer honey, add it now.",
+        "Remove from heat and add the bloomed gelatin. Stir gently until the gelatin is completely dissolved, about 2 minutes. No granules should remain.",
+        "Carefully pour the warm orange-gelatin mixture into the prepared orange shell cups, filling them to just below the rim. A measuring cup with a spout or a ladle makes this easier.",
+        "Refrigerate for at least 4 hours, or overnight, until the jelly is completely firm.",
+        "When ready to serve, use a sharp knife to cut each orange half into wedges. The jelly should hold perfectly inside the rind, looking like real orange slices."
+      ]
+    }
+  ],
+  "grid_order": 35,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4497.jpg",
+      "alt": "Original handwritten recipe for Thạch Trái Cam"
+    }
+  ],
+  "card_image": "images/scans/IMG_4497.jpg",
+  "card_image_alt": "Thạch Trái Cam"
+}

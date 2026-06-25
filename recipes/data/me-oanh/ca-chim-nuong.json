@@ -1,0 +1,54 @@
+{
+  "slug": "ca-chim-nuong",
+  "title": "Cá Chim Trắng Nướng",
+  "english": "Grilled White Pomfret",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Nước chấm · Dipping Sauce",
+          "items": [
+            "Fish sauce (nước mắm)",
+            "Lemongrass (sả), finely minced",
+            "Fresh chili peppers (ớt), finely chopped",
+            "Garlic (tỏi), minced"
+          ]
+        },
+        {
+          "heading": "Để ăn kèm · To Serve",
+          "items": [
+            "Rice vermicelli (bún)",
+            "Rice paper (bánh tráng)",
+            "Fresh herbs and lettuce"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Score the pomfret with 3 diagonal cuts on each side — this lets the marinade soak deep into the flesh and helps it cook evenly.",
+        "Marinate the fish with soy sauce, cooking wine, ginger, and scallion pieces. Let it sit for about 15 minutes.",
+        "Place the fish in a large oven-safe dish and put in the oven.",
+        "After 5 minutes, drizzle 1 more spoon of soy sauce over the fish. Bake for another 5 minutes or until the fish is cooked through.",
+        "Make the dipping sauce: mix fish sauce with lemongrass (sả), chili (ớt), and garlic (tỏi).",
+        "Serve with rice vermicelli (bún), rice paper (bánh tráng), and the dipping sauce."
+      ]
+    }
+  ],
+  "grid_order": 8,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4472.jpg",
+      "alt": "Original handwritten recipe — page 1"
+    }
+  ],
+  "card_image": "images/scans/IMG_4472.jpg",
+  "card_image_alt": "Cá Chim Trắng Nướng"
+}

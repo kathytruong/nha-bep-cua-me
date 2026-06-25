@@ -1,0 +1,34 @@
+{
+  "slug": "cha-trung",
+  "title": "Chả Trứng",
+  "english": "Steamed Pork & Egg Loaf",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "¼ lb ground pork",
+        "¼ onion, chopped",
+        "3 whole eggs plus 1 egg white — reserve the yolk to spread on top of the loaf",
+        "Nam meo (wood ear mushroom) — one pinch, soaked until expanded",
+        "Bún tàu (mung bean thread noodles) — one pinch, soaked 10 minutes",
+        "Salt, pepper, and chicken base, to taste"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Line a pan with plastic wrap for easy removal.",
+        "Mix all ingredients together and pour into the pan.",
+        "Spread the reserved egg yolk on top.",
+        "Cover the pan tightly with foil.",
+        "Steam for about 30 minutes, until the mixture is solid but not dry."
+      ]
+    }
+  ],
+  "grid_order": 49,
+  "yield": "Serves 4",
+  "card_placeholder": true
+}

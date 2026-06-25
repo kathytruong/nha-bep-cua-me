@@ -1,0 +1,44 @@
+{
+  "slug": "dua-bap-cai",
+  "title": "Dưa Bắp Cải",
+  "english": "Pickled Cabbage",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "do-chua",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "800g cabbage (bắp cải), about 1 small head",
+        "200g carrots (cà rốt), peeled",
+        "1 onion, thinly sliced",
+        "80g sugar (đường)",
+        "60g salt (muối)",
+        "1 liter filtered water (nước lọc)",
+        "1 liter rice water (nước vo gạo) — the starchy water from rinsing rice"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Separate the cabbage leaves and tear or cut them into large pieces. Julienne or thinly slice the carrots. Slice the onion into thin rings. Place the cabbage in a large basin of water and soak briefly, then drain well.",
+        "Combine the filtered water and rice water in a pot. Add the sugar and salt. Bring to a boil, stirring until the sugar and salt dissolve completely. Let the brine cool to room temperature.",
+        "Pack the cabbage, carrots, and sliced onion into a clean glass jar or large container, alternating layers. Press down gently to fit everything snugly.",
+        "Pour the cooled brine over the vegetables until they are fully submerged.",
+        "Place a small plate or weight on top to keep everything under the brine. Cover loosely and leave at room temperature for 2–3 days.",
+        "The dưa bắp cải is ready when it tastes pleasantly sour and the cabbage has turned slightly translucent. Transfer to the refrigerator. Serve as a side dish with rice."
+      ]
+    }
+  ],
+  "grid_order": 40,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4445.jpg",
+      "alt": "Original handwritten recipe for Dưa Bắp Cải"
+    }
+  ],
+  "card_image": "images/scans/IMG_4445.jpg",
+  "card_image_alt": "Dưa Bắp Cải"
+}

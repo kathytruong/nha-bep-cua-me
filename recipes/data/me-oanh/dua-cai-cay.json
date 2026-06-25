@@ -1,0 +1,42 @@
+{
+  "slug": "dua-cai-cay",
+  "title": "Dưa Cải Cay",
+  "english": "Pickled Mustard Greens",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "do-chua",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 large bunch mustard greens (cải cay), about 1.5 lbs",
+        "2 stalks green onion (hành lá), cut into sections",
+        "3–4 shallots (hành tím), thinly sliced",
+        "2–3 red horn chilies (ớt sừng đỏ), sliced",
+        "2 tablespoons salt (muối)",
+        "Water, enough to submerge"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Pick off any damaged leaves from the mustard greens. Wash thoroughly. Cut into pieces about 5cm long.",
+        "Cut the green onion into sections. Slice the shallots. Cut the red chilies into rounds (khoanh).",
+        "Place all ingredients -- mustard greens, green onion, shallots, and chili -- into a clean jar.",
+        "Pour salted water (nước muối dưa) into the jar until it covers the surface of the vegetables.",
+        "Cover and leave at room temperature for 2–3 days until sour. Transfer to the refrigerator."
+      ]
+    }
+  ],
+  "grid_order": 43,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4501.jpg",
+      "alt": "Original handwritten recipe for Dưa Cải Cay"
+    }
+  ],
+  "card_image": "images/scans/IMG_4501.jpg",
+  "card_image_alt": "Dưa Cải Cay"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "canh-chua-ca",
+  "title": "Canh Chua Cá",
+  "english": "Sweet & Sour Tamarind Fish Soup",
+  "cook": "di-lan",
+  "cook_label": "From Dì Lan",
+  "category": "mon-nuoc",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 lb catfish fillets (or any firm white fish), cut into chunks",
+        "2 tablespoons tamarind paste, dissolved in ½ cup warm water",
+        "2 tomatoes, cut into wedges",
+        "½ fresh pineapple, cut into thin wedges",
+        "2 cups bean sprouts (giá)",
+        "3–4 okra, sliced on the diagonal",
+        "1 stalk taro stem (bạc hà), peeled and cut into pieces (optional)",
+        "2 tablespoons fish sauce (nước mắm)",
+        "1 tablespoon sugar",
+        "3 cloves garlic, minced",
+        "2 tablespoons cooking oil",
+        "6 cups water or light stock",
+        "Fresh herbs: rau om (rice paddy herb), ngò gai (sawtooth herb), Thai basil",
+        "Sliced red chili (optional)"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Season the fish: Lightly season catfish pieces with a pinch of salt and pepper. Set aside.",
+        "Prepare the tamarind: Dissolve tamarind paste in warm water. Strain out the seeds and solids, keeping the liquid. This is what gives the soup its signature sour tang.",
+        "Start the soup: Heat oil in a large pot over medium heat. Sauté garlic until fragrant, about 30 seconds. Add tomatoes and cook until they start to soften and release their juices.",
+        "Add the liquid: Pour in the water or stock, pineapple wedges, and tamarind liquid. Bring to a boil. Season with fish sauce and sugar. Taste — the broth should be a bright balance of sour, sweet, and savory.",
+        "Add the vegetables: Add the taro stem (if using) and okra. Simmer for 5 minutes until just tender.",
+        "Add the fish: Gently slide the fish pieces into the simmering broth. Cook for 4–5 minutes — don't stir too much or the fish will break apart. Dì Lan would barely touch the pot at this stage.",
+        "Finish: Add bean sprouts and turn off the heat immediately. The residual heat will wilt them perfectly. Stir in the fresh herbs.",
+        "Serve hot over steamed jasmine rice, with sliced chili on the side for anyone who wants heat."
+      ]
+    }
+  ],
+  "grid_order": 1,
+  "hero_image": "../images/canh.jpeg",
+  "hero_alt": "Canh Chua Cá - Tamarind Fish Soup",
+  "tip_label": "Dì Lan's tip",
+  "tip": "\"The pineapple is not optional — it's what makes the soup sing. And add the herbs at the very end, off the heat. If you cook them, they go bitter and you lose that fresh taste.\" She always used catfish, but any firm white fish works.",
+  "memorial": "A recipe from Dì Lan's kitchen",
+  "card_image": "images/canh.jpeg",
+  "card_image_alt": "Canh Chua Cá"
+}

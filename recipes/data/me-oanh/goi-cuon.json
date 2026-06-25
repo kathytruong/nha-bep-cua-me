@@ -1,0 +1,54 @@
+{
+  "slug": "goi-cuon",
+  "title": "Gỏi Cuốn Tôm Thịt",
+  "english": "Fresh Shrimp & Pork Summer Rolls",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 lb shrimp, shell-on",
+        "½ lb pork belly or pork shoulder",
+        "1 package round rice paper wrappers (bánh tráng)",
+        "1 package thin rice vermicelli (bún)",
+        "1 head butter lettuce, leaves separated",
+        "1 bunch fresh mint",
+        "1 bunch Thai basil (húng quế)",
+        "1 bunch cilantro",
+        "1 bunch garlic chives (hẹ), optional",
+        "Bean sprouts (giá)"
+      ]
+    },
+    {
+      "heading": "Nước chấm · Peanut Dipping Sauce",
+      "items": [
+        "3 tablespoons hoisin sauce",
+        "1 tablespoon peanut butter (creamy)",
+        "1 teaspoon sriracha or chili garlic sauce",
+        "Warm water to thin",
+        "Crushed roasted peanuts, for topping"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Cook the pork: Place pork in a pot, cover with water, and bring to a boil. Reduce heat and simmer until cooked through, about 25 minutes. Let cool, then slice thinly.",
+        "Cook the shrimp: Boil the shrimp in salted water until pink, about 3 minutes. Drain, peel, devein, and slice each shrimp in half lengthwise.",
+        "Cook the vermicelli: Bring a pot of water to a boil. Cook bún according to package directions, then drain and rinse with cold water. Toss with a tiny bit of oil so it doesn't stick.",
+        "Prep the herbs: Wash and dry all the herbs and lettuce. Pick the leaves off the stems. Mẹ would lay everything out on a big plate — she called it the \"rau plate.\"",
+        "Make the dipping sauce: Stir together hoisin sauce, peanut butter, and sriracha. Add warm water a tablespoon at a time until it's a smooth, dippable consistency. Pour into small bowls and top with crushed peanuts.",
+        "Roll the summer rolls: Dip one rice paper wrapper in a plate of warm water for about 5 seconds — don't let it get too soft. Lay it on a clean, damp surface. Layer: a lettuce leaf, a small bundle of vermicelli, herbs, 2–3 slices of pork, then fold the sides in and roll tightly, tucking as you go. Place 3 shrimp halves (cut-side out) on the last fold so they show through the wrapper.",
+        "Serve immediately with the peanut dipping sauce."
+      ]
+    }
+  ],
+  "grid_order": 4,
+  "hero_image": "../images/goicuon.jpeg",
+  "hero_alt": "Gỏi Cuốn - Fresh Summer Rolls",
+  "tip_label": "Mẹ's tip",
+  "tip": "\"Don't oversoak the rice paper — just a quick dip. It keeps softening after you take it out. If it's too wet, the roll falls apart.\" She could roll these faster than anyone. Tight, neat, every shrimp perfectly visible through the wrapper. The rest of us are still practicing.",
+  "card_image": "images/goicuon.jpeg",
+  "card_image_alt": "Gỏi Cuốn Tôm Thịt"
+}

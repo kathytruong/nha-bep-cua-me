@@ -1,0 +1,65 @@
+{
+  "slug": "canh-ga-chien",
+  "title": "Cánh Gà Chiên",
+  "english": "Glazed Fried Chicken Wings",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Gà · Wings",
+          "items": [
+            "8 chicken wings, split at the joints (tips removed)",
+            "½ teaspoon salt",
+            "¼ tablespoon fish sauce (nước mắm)",
+            "½ tablespoon sugar",
+            "1 teaspoon sesame oil",
+            "1 teaspoon garlic, minced",
+            "Cornstarch, for coating",
+            "Oil, for deep frying"
+          ]
+        },
+        {
+          "heading": "Nước sốt · Glaze Sauce",
+          "items": [
+            "2 tablespoons water",
+            "1 tablespoon chicken broth",
+            "1 teaspoon paprika",
+            "1 teaspoon sugar",
+            "2 tablespoons dark corn syrup",
+            "¼ teaspoon salt",
+            "½ teaspoon black pepper",
+            "1 tablespoon soy sauce",
+            "2 cloves garlic, minced",
+            "1 tablespoon cooking oil"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Marinate the wings: toss them with salt, fish sauce, sugar, sesame oil, and minced garlic. Let them sit for about 30 minutes.",
+        "When ready to fry, pat the wings dry and coat each one in cornstarch. Shake off the excess.",
+        "Heat oil in a deep pot or wok to 350°F. Fry the wings in batches — don't crowd the pot — for about 8–10 minutes, until golden brown and cooked through. Drain on a wire rack or paper towels.",
+        "While the wings fry, make the glaze: in a small saucepan, heat 1 tablespoon oil over medium heat. Sauté the garlic until fragrant. Add water, chicken broth, paprika, sugar, dark corn syrup, salt, pepper, and soy sauce. Stir and simmer for 3–4 minutes until the sauce thickens and becomes glossy.",
+        "Toss the hot fried wings in the glaze, or pour the glaze over the wings on a serving plate. Make sure each wing is coated in that sticky, sweet-savory sauce.",
+        "Serve immediately while hot."
+      ]
+    }
+  ],
+  "grid_order": 13,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4487.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4487.jpg",
+  "card_image_alt": "Cánh Gà Chiên"
+}

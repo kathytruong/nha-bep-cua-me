@@ -1,0 +1,47 @@
+{
+  "slug": "cua-rang-me",
+  "title": "Cua Rang Me",
+  "english": "Tamarind Crab",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "2 whole live crabs (about 2 lbs each), cleaned",
+        "½ cup tamarind paste (me chua), dissolved in 1 cup warm water and strained",
+        "5 cloves garlic, minced",
+        "3 shallots (hành tím), minced",
+        "3 tablespoons cooking oil",
+        "2 tablespoons fish sauce (nước mắm)",
+        "3 tablespoons sugar",
+        "½ teaspoon MSG (bột ngọt)",
+        "1 teaspoon black pepper"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Cut the crab into pieces. Crack the claws. Scoop out the roe (gạch cua) into a small bowl and set aside.",
+        "Heat oil in a wok with garlic and shallots.",
+        "Add the crab and stir-fry on high heat.",
+        "Add fish sauce, sugar, and MSG.",
+        "Stir the tamarind water until boiling, then pour about half a bowl over the crab. Reduce heat to low. If too sour, adjust.",
+        "Cover and cook for a few minutes. Add the reserved crab roe on top.",
+        "Cover again briefly, then serve."
+      ]
+    }
+  ],
+  "grid_order": 12,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4465.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4465.jpg",
+  "card_image_alt": "Cua Rang Me"
+}

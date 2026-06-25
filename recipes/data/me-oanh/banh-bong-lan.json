@@ -1,0 +1,50 @@
+{
+  "slug": "banh-bong-lan",
+  "title": "Bánh Bông Lan",
+  "english": "Vietnamese Sponge Cake",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "banh",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "5 large eggs, separated",
+        "1 cup sugar",
+        "1 cup all-purpose flour, sifted",
+        "2 tablespoons cream (heavy cream or whipping cream)",
+        "1 tablespoon instant coffee, dissolved in 1 tablespoon hot water",
+        "2 tablespoons vegetable oil",
+        "2 tablespoons bột cream (cream of tartar)",
+        "1 teaspoon vanilla extract",
+        "Pinch of salt"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Preheat oven to 350°F (175°C). Line the bottom of a 9-inch round cake pan with parchment paper. Do not grease the sides — the batter needs to cling to the sides to rise properly.",
+        "Separate the eggs. Place the whites in a large, clean bowl and the yolks in a medium bowl.",
+        "Beat the egg yolks with half the sugar until thick and pale, about 3 minutes. Add the oil, cream, dissolved coffee, and vanilla. Mix until well combined.",
+        "Gently fold in the sifted flour, mixing just until no dry streaks remain. Do not overmix.",
+        "In the other bowl, beat the egg whites with the cream of tartar and a pinch of salt until foamy. Gradually add the remaining sugar, beating until stiff, glossy peaks form.",
+        "Fold one-third of the egg whites into the yolk batter to lighten it. Then gently fold in the remaining whites in two additions, turning the bowl as you fold. Be patient — keeping the air in is what makes the cake fluffy.",
+        "Pour the batter into the prepared pan and smooth the top. Tap the pan gently on the counter to release any large air bubbles.",
+        "Bake at 350°F for 35–40 minutes, until the top is golden and a skewer inserted in the center comes out clean.",
+        "Immediately invert the cake pan onto a wire rack and let it cool completely upside down. This keeps the cake from collapsing. Once cool, run a knife along the edges and unmold.",
+        "Slice and serve with tea."
+      ]
+    }
+  ],
+  "grid_order": 18,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4446.jpg",
+      "alt": "Original handwritten recipe for Bánh Bông Lan"
+    }
+  ],
+  "card_image": "images/scans/IMG_4446.jpg",
+  "card_image_alt": "Bánh Bông Lan"
+}

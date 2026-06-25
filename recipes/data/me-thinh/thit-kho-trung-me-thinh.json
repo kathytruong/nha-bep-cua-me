@@ -1,0 +1,37 @@
+{
+  "slug": "thit-kho-trung-me-thinh",
+  "title": "Thịt Kho Trứng",
+  "english": "Braised Pork & Eggs",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Eggs — boil and peel",
+        "Pork shoulder — trim excess fat",
+        "Coconut soda or coconut water",
+        "Water, to submerge",
+        "Sugar — a little, if using coconut water instead of coconut soda",
+        "Fish sauce",
+        "2–3 cloves garlic",
+        "2–3 shallots"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Boil and peel the eggs. Set aside.",
+        "Cut off excess fat from the pork shoulder.",
+        "Boil the pork shoulder ahead of time. Pour out the water and rinse clean.",
+        "Add coconut soda or coconut water, then fill with water to submerge the pork.",
+        "If using coconut water, add a little sugar.",
+        "Season with fish sauce, garlic, and shallots.",
+        "Braise until the pork is tender and the sauce is rich. Add the eggs toward the end."
+      ]
+    }
+  ],
+  "grid_order": 53,
+  "card_placeholder": true
+}

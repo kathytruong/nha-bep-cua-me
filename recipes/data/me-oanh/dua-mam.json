@@ -1,0 +1,43 @@
+{
+  "slug": "dua-mam",
+  "title": "Dưa Mắm",
+  "english": "Fermented Vegetables",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "do-chua",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Cucumbers (dưa leo)",
+        "Salt (muối), enough for a moderately salty brine",
+        "Water, enough to submerge",
+        "A small pinch of alum (phèn chua)",
+        "2 tablespoons sugar (đường)",
+        "Fish sauce (nước mắm), to taste"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Cut each cucumber in half lengthwise. Scrape out the seeds with a spoon. Slice thin (not too thin). Pack tightly into a clean jar.",
+        "Make a salt brine (moderately salty, not too much). Add a small pinch of alum (phèn chua), remove from heat. Pour over the cucumbers until submerged. Place a plate on top to press them down.",
+        "Ferment at room temperature for 1–2 days. Then drain completely.",
+        "Press out excess water, then pack back into the jar.",
+        "Heat about half a cup of water with 2 tablespoons sugar. Add fish sauce, adjust to taste (should be balanced salty and sweet). Pour over the cucumbers while still warm — don't let it cool first.",
+        "After 2 more days, drain and serve. Adjust with more sugar and fish sauce if needed."
+      ]
+    }
+  ],
+  "grid_order": 41,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4466.jpg",
+      "alt": "Original handwritten recipe for Dưa Mắm — page 1"
+    }
+  ],
+  "card_image": "images/scans/IMG_4466.jpg",
+  "card_image_alt": "Dưa Mắm"
+}

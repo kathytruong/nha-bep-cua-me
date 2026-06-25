@@ -1,0 +1,34 @@
+{
+  "slug": "hoanh-thanh-tom",
+  "title": "Hoành Thánh Tôm",
+  "english": "Shrimp Wontons",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Shrimp",
+        "Chicken base",
+        "Sugar",
+        "Black pepper",
+        "Onion powder",
+        "Cornstarch or potato starch",
+        "Cooking oil",
+        "Wonton wrappers"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Blend the shrimp. Season with chicken base, sugar, pepper, onion powder, starch, and a little cooking oil.",
+        "Wrap the wontons.",
+        "Microwave for 1 minute before boiling — this helps them hold together.",
+        "Boil until they float and the filling is cooked through."
+      ]
+    }
+  ],
+  "grid_order": 59,
+  "card_placeholder": true
+}

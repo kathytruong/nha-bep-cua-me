@@ -1,0 +1,52 @@
+{
+  "slug": "che-dau-trang",
+  "title": "Chè Đậu Trắng",
+  "english": "White Bean Sweet Soup",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "desserts",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "3 cans white beans (đậu trắng), drained and rinsed",
+        "1¼ cups sticky rice (gạo nếp), rinsed",
+        "2 cups sugar, or to taste",
+        "5⅓ cups water",
+        "Pinch of salt",
+        "Coconut cream for drizzling (optional)"
+      ]
+    },
+    {
+      "heading": "Phần lớn hơn · Larger Batch",
+      "items": [
+        "3 cans white beans",
+        "2 cups sticky rice",
+        "4 cups sugar",
+        "7 cups water"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Rinse the sticky rice several times until the water runs clear.",
+        "In a large pot, bring the water to a boil. Add the sticky rice and cook until the rice is completely soft.",
+        "Drain and rinse the canned white beans. You can microwave the beans briefly to soften them. Add them to the pot with the cooked sticky rice. Stir gently to combine.",
+        "When the mixture comes to a boil, add sugar and a pinch of salt. Stir until the sugar is fully dissolved.",
+        "Simmer everything together for another 5–10 minutes so the flavors meld. The chè should be thick but still pourable.",
+        "Serve warm in small bowls, drizzled with coconut cream if you like."
+      ]
+    }
+  ],
+  "grid_order": 26,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4438.jpg",
+      "alt": "Original handwritten recipe for Chè Đậu Trắng"
+    }
+  ],
+  "card_image": "images/scans/IMG_4438.jpg",
+  "card_image_alt": "Chè Đậu Trắng"
+}

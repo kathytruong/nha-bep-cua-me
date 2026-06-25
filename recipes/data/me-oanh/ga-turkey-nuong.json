@@ -1,0 +1,49 @@
+{
+  "slug": "ga-turkey-nuong",
+  "title": "Gà Turkey Nướng",
+  "english": "Roast Turkey",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Nhân gà · Stuffing",
+          "items": [
+            "1 large onion, quartered",
+            "3 stalks celery, cut into chunks",
+            "1 piece ginger (gừng)",
+            "3 carrots, cut into chunks",
+            "2 ears corn, halved",
+            "Fresh herbs — thyme, rosemary, sage"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "The night before or early morning, rinse the turkey inside and out. Pat very dry with paper towels.",
+        "Make the seasoning paste: mix minced lemongrass, garlic, salt, sugar, fish sauce, black pepper, and oil into a fragrant paste. Rub it all over the turkey, getting under the skin where you can. Let it marinate at least 1 hour, or overnight in the fridge.",
+        "Stuff the cavity with quartered onion, celery, carrots, corn, and fresh herbs. These perfume the meat from the inside as it roasts. Tie the legs together with kitchen twine.",
+        "Preheat the oven to 400°F. Place turkey breast-side up in a roasting pan. Roast at 400°F for 5–10 minutes to get the initial browning.",
+        "Reduce heat to 350°F. Continue roasting for about 3 hours total, basting every 30 minutes. Mix honey with a little warm water and cornstarch for the basting glaze.",
+        "When the internal temperature reaches 160°F at the thickest part of the thigh, turn the oven to broil for 3–5 minutes to get the skin deeply golden and crispy. Watch it carefully.",
+        "Let the turkey rest for 20–30 minutes before carving. Serve with rice or mashed potatoes."
+      ]
+    }
+  ],
+  "grid_order": 9,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4439.jpg",
+      "alt": "Original handwritten recipe — page 1"
+    }
+  ],
+  "card_image": "images/scans/IMG_4439.jpg",
+  "card_image_alt": "Gà Turkey Nướng"
+}

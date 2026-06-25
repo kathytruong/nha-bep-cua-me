@@ -1,0 +1,41 @@
+{
+  "slug": "dua-muoi",
+  "title": "Dưa Muối",
+  "english": "Vietnamese Pickled Vegetables",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "do-chua",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "7 cucumbers (dưa leo)",
+        "4 tablespoons salt (muối)",
+        "Enough water to submerge the vegetables",
+        "Sugar, to taste (for the second stage)"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Wash the cucumbers. Cut in half and slice into pieces. Place in a clean glass jar.",
+        "Dissolve the salt in water to make a brine. Pour the salted water over the cucumbers until fully submerged.",
+        "Press the cucumbers down with a plate or heavy bowl to keep them under the brine. Cover loosely.",
+        "Let the jar sit at room temperature for 3 days.",
+        "After 3 days, taste the dưa. If it's sour enough, add a little sugar to balance the flavor. Add more sugar to taste as needed.",
+        "Once the pickles reach your desired sourness (usually 3–4 days total), move the jar to the refrigerator. Serve alongside rice, soup, or braised dishes."
+      ]
+    }
+  ],
+  "grid_order": 39,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4444.jpg",
+      "alt": "Original handwritten recipe for Dưa Muối"
+    }
+  ],
+  "card_image": "images/scans/IMG_4444.jpg",
+  "card_image_alt": "Dưa Muối"
+}

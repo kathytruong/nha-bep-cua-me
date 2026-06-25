@@ -1,0 +1,35 @@
+{
+  "slug": "ca-ri-ga-khoai-tay",
+  "title": "Cà Ri Gà Khoai Tây",
+  "english": "Chicken & Potato Yellow Curry",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Chicken",
+        "Curry powder",
+        "Onion powder",
+        "Garlic powder",
+        "Salt",
+        "Coconut milk",
+        "Water",
+        "Potatoes"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Marinate the chicken in curry powder, onion powder, and garlic powder for a couple of hours.",
+        "Stir-fry the chicken until lightly browned.",
+        "Add salt, coconut milk, and some water.",
+        "Microwave the potatoes until mostly cooked, then add to the pot.",
+        "Simmer until the chicken is tender and the potatoes are soft."
+      ]
+    }
+  ],
+  "grid_order": 54,
+  "card_placeholder": true
+}

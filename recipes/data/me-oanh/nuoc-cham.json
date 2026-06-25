@@ -1,0 +1,39 @@
+{
+  "slug": "nuoc-cham",
+  "title": "Nước Chấm",
+  "english": "Vietnamese Dipping Sauce",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "nuoc-cham",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "2 tablespoons sugar (đường)",
+        "2 tablespoons soy sauce (xì dầu)",
+        "1 tablespoon soy paste (nước tương)",
+        "1 tablespoon chili sauce (tương ớt)",
+        "5 tablespoons fish sauce (nước mắm)"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Combine the sugar, soy sauce, soy paste, chili sauce, and fish sauce in a small bowl. Stir until the sugar is completely dissolved.",
+        "Taste and adjust to your liking.",
+        "Serve alongside bột chiên, gỏi cuốn, bánh cuốn, or other dishes."
+      ]
+    }
+  ],
+  "grid_order": 44,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4444.jpg",
+      "alt": "Original handwritten recipe for Nước Chấm"
+    }
+  ],
+  "card_image": "images/scans/IMG_4444.jpg",
+  "card_image_alt": "Nước Chấm"
+}

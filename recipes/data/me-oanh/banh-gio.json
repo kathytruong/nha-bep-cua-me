@@ -1,0 +1,69 @@
+{
+  "slug": "banh-gio",
+  "title": "Bánh Giò",
+  "english": "Rice Flour Dumplings",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "banh",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Vỏ bánh · Dough",
+          "items": [
+            "1 bag Vinh Thuan rice flour (bột gạo)",
+            "3 cups cold water",
+            "4 cups chicken broth",
+            "3 teaspoons potato starch (bột khoai tây)",
+            "1 teaspoon salt",
+            "1 tablespoon fish sauce (nước mắm)",
+            "1/2 teaspoon MSG (bột ngọt) — optional",
+            "2 tablespoons vegetable oil"
+          ]
+        },
+        {
+          "heading": "Nhân · Filling",
+          "items": [
+            "250g ground pork",
+            "4–5 dried wood ear mushrooms (mộc nhĩ), soaked and minced",
+            "2 shallots, finely minced",
+            "1 tablespoon fish sauce",
+            "1/2 teaspoon ground black pepper",
+            "1/2 teaspoon sugar"
+          ]
+        },
+        {
+          "heading": "Gói · Wrapping",
+          "items": [
+            "Banana leaves, cleaned and cut into squares (or plastic wrap)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Prepare the filling: Heat a tablespoon of oil in a pan. Sauté the shallots until fragrant, then add the ground pork. Break it apart and cook until no longer pink. Add the mushrooms, fish sauce, pepper, and sugar. Cook for 2–3 minutes until everything is well combined. Set aside to cool.",
+        "Make the dough: In a large pot, combine the rice flour with the 3 cups cold water and stir until dissolved. Add the 4 cups chicken broth, potato starch, salt, fish sauce, MSG (if using), and oil. Mix well — the liquid total is 7 cups.",
+        "Cook the dough over medium heat, stirring constantly with a wooden spoon or spatula. This is the most important step — you must stir without stopping or the dough will be lumpy. It will gradually thicken from a thin liquid to a thick, translucent paste, about 15–20 minutes.",
+        "When the dough is thick, glossy, and pulls away from the pot, remove from heat. It should be smooth and slightly sticky.",
+        "Prepare the banana leaves: Wipe them clean and lightly oil one side. If using plastic wrap, cut into large squares.",
+        "Wrap the bánh: Place a large spoonful of dough onto a banana leaf or plastic wrap. Flatten slightly, add a spoonful of filling in the center, then fold the dough over to enclose the filling. Wrap into a pyramid or rectangular shape. Tie with kitchen string if using banana leaves.",
+        "Steam the wrapped dumplings over boiling water for about 20–25 minutes.",
+        "Let cool slightly before unwrapping. Serve warm with nước mắm pha (diluted fish sauce) and fresh herbs. Makes 10–11 bánh."
+      ]
+    }
+  ],
+  "grid_order": 21,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4455.jpg",
+      "alt": "Original handwritten recipe for Bánh Giò"
+    }
+  ],
+  "card_image": "images/scans/IMG_4455.jpg",
+  "card_image_alt": "Bánh Giò"
+}

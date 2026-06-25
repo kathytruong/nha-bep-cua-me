@@ -1,0 +1,63 @@
+{
+  "slug": "banh-bo-nuong",
+  "title": "Bánh Bò Nướng",
+  "english": "Baked Honeycomb Cake",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "banh",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Bản của chị Tôi · Chị Tôi's Version",
+          "items": [
+            "2 eggs",
+            "1 cup sugar",
+            "1 can (13.5 oz) coconut milk",
+            "2 packets vanilla extract",
+            "Alka-Seltzer",
+            "3 cups tapioca starch (bột năng)"
+          ]
+        },
+        {
+          "heading": "Bản của chị Thiết · Chị Thiết's Version",
+          "items": [
+            "5 eggs",
+            "1 tablespoon vegetable oil",
+            "1 can (13.5 oz) coconut milk",
+            "1 cup sugar",
+            "Alka-Seltzer",
+            "1 teaspoon baking powder",
+            "3 cups tapioca starch (bột năng)",
+            "1 teaspoon vanilla extract"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Preheat oven to 350°F (175°C). Grease a 9-inch round cake pan or bundt pan with oil or butter.",
+        "Beat the eggs and sugar together until well combined. The mixture should become thick and pale.",
+        "Add the coconut milk and vanilla, mixing on low speed until just combined.",
+        "Sift the tapioca starch into the batter and fold in gently until smooth. The batter should be pourable but not too thin.",
+        "Crush the Alka-Seltzer tablets into a fine powder. Fold it into the batter quickly and pour immediately into the prepared pan.",
+        "Bake at 350°F for about 30 minutes, until the top is golden brown and a skewer comes out clean.",
+        "Let cool in the pan for 15 minutes, then turn out onto a rack. When sliced, you should see the beautiful honeycomb pattern of air tunnels running through the cake.",
+        "Slice into wedges and serve at room temperature."
+      ]
+    }
+  ],
+  "grid_order": 19,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4447.jpg",
+      "alt": "Original handwritten recipe for Bánh Bò Nướng — two versions"
+    }
+  ],
+  "card_image": "images/scans/IMG_4447.jpg",
+  "card_image_alt": "Bánh Bò Nướng"
+}

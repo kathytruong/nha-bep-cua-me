@@ -1,0 +1,41 @@
+{
+  "slug": "che-tao-xon",
+  "title": "Chè Tào Xọn",
+  "english": "Mung Bean Dessert",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "desserts",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "200g mung beans (đậu xanh), husked and split",
+        "100g tapioca starch (bột năng)",
+        "300g sugar (đường cát)",
+        "Coconut cream (nước cốt dừa)",
+        "1.5 liters water"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Steam the mung beans until fully cooked and tender.",
+        "Add the sugar to 1.5 liters of water in a large pot. Bring to a boil, stirring until the sugar dissolves.",
+        "Add the tapioca starch gradually, stirring constantly until the mixture thickens and becomes glossy and slightly translucent.",
+        "Fold in the steamed mung beans. Stir to distribute them evenly.",
+        "Serve topped with coconut cream."
+      ]
+    }
+  ],
+  "grid_order": 31,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4464.jpg",
+      "alt": "Original handwritten recipe for Chè Tào Xọn"
+    }
+  ],
+  "card_image": "images/scans/IMG_4464.jpg",
+  "card_image_alt": "Chè Tào Xọn"
+}

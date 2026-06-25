@@ -1,0 +1,63 @@
+{
+  "slug": "banh-tom-chien",
+  "title": "Bánh Tôm Chiên",
+  "english": "Fried Shrimp Cakes",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Bột · Batter",
+          "items": [
+            "1½ cups all-purpose flour",
+            "2 eggs, beaten",
+            "½ teaspoon salt",
+            "½ teaspoon turmeric powder (bột nghệ) — for golden color",
+            "2 cups sparkling water or beer (nước lọc có ga hoặc bia)"
+          ]
+        },
+        {
+          "heading": "Tôm · Shrimp",
+          "items": [
+            "1 lb medium shrimp, peeled and deveined (leave tails on for presentation)",
+            "Oil, for deep frying"
+          ]
+        },
+        {
+          "heading": "Để ăn kèm · To Serve",
+          "items": [
+            "Fresh lettuce leaves",
+            "Fresh herbs — mint, perilla (tía tô), cilantro",
+            "Pickled carrots and daikon (đồ chua)",
+            "Nước chấm dipping sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Make the batter: whisk together flour, beaten eggs, salt, and turmeric until smooth. Slowly pour in the sparkling water or beer, stirring gently.",
+        "Let the batter rest for 10 minutes.",
+        "Heat oil in a deep pot or wok to 350°F. You need enough oil to submerge the shrimp.",
+        "Dip each shrimp into the batter, letting the excess drip off. Carefully lower into the hot oil. Fry a few at a time.",
+        "Fry for 3–4 minutes, turning once, until golden and crispy. Drain on a wire rack.",
+        "Serve immediately with lettuce, fresh herbs, pickled vegetables, and nước chấm."
+      ]
+    }
+  ],
+  "grid_order": 14,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4495.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4495.jpg",
+  "card_image_alt": "Bánh Tôm Chiên"
+}

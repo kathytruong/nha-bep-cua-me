@@ -1,0 +1,62 @@
+{
+  "slug": "xa-xiu",
+  "title": "Xá Xíu",
+  "english": "Vietnamese Char Siu BBQ Pork",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Thịt · Meat",
+          "items": [
+            "4–5 lbs pork belly or pork shoulder, cut into long strips about 2 inches wide"
+          ]
+        },
+        {
+          "heading": "Ướp · Marinade",
+          "items": [
+            "12 teaspoons salt",
+            "7 teaspoons sugar",
+            "2 teaspoons MSG (bột ngọt)",
+            "12 teaspoons meat tenderizer",
+            "2 teaspoons chicken bouillon powder",
+            "2 teaspoons char siu powder (bột xá xíu)",
+            "9 teaspoons five-spice powder (ngũ vị hương)",
+            "¼ cup sesame oil",
+            "¼ cup cooking oil",
+            "3 tablespoons oyster sauce",
+            "6 tablespoons soy sauce",
+            "A few drops red food coloring (màu đỏ)",
+            "2 teaspoons cooking wine (rượu nấu)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Cut the pork into long strips, about 2 inches wide and 1 inch thick.",
+        "Mix all the marinade ingredients together in a large bowl: salt, sugar, MSG, meat tenderizer, chicken bouillon, char siu powder, five-spice, sesame oil, cooking oil, oyster sauce, soy sauce, red water, turmeric, and red coloring. Stir until everything is dissolved and combined.",
+        "Add the pork strips to the marinade. Massage it in with your hands, making sure every piece is thoroughly coated. Cover and refrigerate for at least 2 hours — overnight is even better. The tenderizer and five-spice need time to work their way in.",
+        "When ready to cook, heat a wok. Add 2 tablespoons cooking oil. Sear the pork strips on all sides until caramelized. Turn heat up.",
+        "Reduce heat to medium. Continue cooking, turning the strips every few minutes, basting with any remaining marinade. Cook for about 30–40 minutes total, until the pork is cooked through and the exterior is lacquered and deeply red.",
+        "Let the pork rest for 10 minutes, then slice against the grain into thin pieces. The inside should be tender and juicy, the outside sticky and caramelized.",
+        "Serve over steamed rice, in bánh mì, or alongside wonton noodle soup."
+      ]
+    }
+  ],
+  "grid_order": 10,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4481.jpg",
+      "alt": "Original handwritten recipe — page 1"
+    }
+  ],
+  "card_image": "images/scans/IMG_4481.jpg",
+  "card_image_alt": "Xá Xíu"
+}

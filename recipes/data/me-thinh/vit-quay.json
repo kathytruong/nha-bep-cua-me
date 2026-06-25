@@ -1,0 +1,31 @@
+{
+  "slug": "vit-quay",
+  "title": "Vịt Quay",
+  "english": "Roast Duck",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "Whole duck",
+        "Follow Maclam's Kitchen roast duck recipe on YouTube",
+        "Mẹ Thịnh's adjustments: use 2 spoons ngũ vị hương instead of 3",
+        "No tứ xuyên pepper"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Follow the Maclam's Kitchen roast duck video for the full method.",
+        "Use 2 spoons of ngũ vị hương (five-spice) instead of 3.",
+        "Leave out tứ xuyên pepper."
+      ]
+    }
+  ],
+  "grid_order": 56,
+  "tip_label": "Mẹ Thịnh's note",
+  "tip": "Mẹ Thịnh built on Maclam's Kitchen method and made it her own with these small adjustments.",
+  "card_placeholder": true
+}

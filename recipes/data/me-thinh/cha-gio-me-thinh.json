@@ -1,0 +1,48 @@
+{
+  "slug": "cha-gio-me-thinh",
+  "title": "Chả Giò",
+  "english": "Fried Egg Rolls (Large Batch)",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "3 lb carrots",
+        "3 large jicama (củ sắn), about 5 lb each",
+        "2 lb taro (khoai môn)",
+        "5 bundles vermicelli noodles (bún tàu)",
+        "5 lb shrimp",
+        "5 lb ground pork",
+        "3 onions",
+        "2 bulbs garlic",
+        "½ lb shallots",
+        "Salt, pepper, chicken base, sugar, and MSG — to taste",
+        "4 eggs",
+        "Egg roll wrappers",
+        "Flour and water paste, for sealing",
+        "Oil, for frying"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Mandolin the carrots, jicama, and taro into thin strips. Combine in a large bowl.",
+        "Boil vermicelli noodles, cut into smaller pieces, and add to the vegetables.",
+        "Season the ground pork separately with salt, pepper, chicken base, a little sugar, and MSG — season it a little salty; it will even out with the unseasoned vegetables.",
+        "In a food processor, mince the garlic, onions, and shallots. Add to the ground pork.",
+        "Blend the shrimp and add to the pork mixture.",
+        "Season the pork and shrimp mixture with two spoons of chicken base and a hefty amount of garlic powder. Mix with your hands.",
+        "Add some of the pork mixture to the vegetables. Add four eggs and mix. Slowly combine the rest of the pork and shrimp with the vegetables, using your hands for even coverage.",
+        "Test the filling by microwaving a spoonful. Adjust seasoning to taste.",
+        "Mix flour with water and microwave slowly, stirring until a paste forms — use this to seal the egg rolls.",
+        "Roll and fry until golden."
+      ]
+    }
+  ],
+  "grid_order": 58,
+  "tip_label": "Mẹ Thịnh's note",
+  "tip": "Mẹ Thịnh's note: enough for 100 small egg rolls and 200 large ones — a full party's worth.",
+  "card_placeholder": true
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "do-chua-carrot-daikon",
+  "title": "Đồ Chua",
+  "english": "Pickled Carrot & Daikon",
+  "cook": "me-thinh",
+  "cook_label": "From Mẹ Thịnh",
+  "category": "do-chua",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 medium/small daikon",
+        "2 medium carrots",
+        "4 tablespoons white sugar",
+        "5 tablespoons white vinegar",
+        "Salt — 1 tbsp for the carrots"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Shred the carrots and toss with 1 tbsp salt in a bowl.",
+        "Shred the daikon and add to the carrots.",
+        "Rinse the carrots and daikon in boiling hot water.",
+        "Transfer to a bowl with the sugar and vinegar. Mix well.",
+        "Let sit for a couple of hours, revisiting and stirring occasionally.",
+        "Drain excess vinegar and sugar mixture before storing in a glass jar."
+      ]
+    }
+  ],
+  "grid_order": 57,
+  "card_placeholder": true
+}

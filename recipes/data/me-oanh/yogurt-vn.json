@@ -1,0 +1,44 @@
+{
+  "slug": "yogurt-vn",
+  "title": "Yogurt Việt Nam",
+  "english": "Vietnamese Homemade Yogurt",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "desserts",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "items": [
+        "1 can (14 oz) sweetened condensed milk",
+        "1 can boiling water (use the empty condensed milk can to measure)",
+        "2 cans fresh milk (use the same can to measure — whole milk works best)",
+        "½ cup plain yogurt with live cultures (yogurt starter / men yogurt)",
+        "Small glass jars or ceramic cups for setting"
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Pour the entire can of sweetened condensed milk into a large mixing bowl or pot. Boil water and measure out 1 can's worth (use the empty condensed milk can). Pour the boiling water into the condensed milk and stir well until completely combined. The hot water dissolves the thick condensed milk and makes it smooth.",
+        "Measure out 2 cans of fresh milk using the same can. Add the fresh milk to the mixture and stir everything together. The mixture should feel warm but not hot to the touch. This is important: if it's too hot, it will kill the yogurt cultures.",
+        "Add the yogurt starter and stir gently until evenly distributed. Don't whisk vigorously — just stir enough to blend it in. The live cultures in the starter yogurt are what will transform the milk into yogurt overnight.",
+        "Pour the mixture into small glass jars or ceramic cups.",
+        "Prepare a hot water bath: Fill a large, deep pot or insulated container with hot water (about 140–150°F / 60–65°C). Place the filled jars carefully into the water — the water should come up to about the level of the yogurt inside the jars, but not over the tops.",
+        "Cover the pot with a lid and wrap the whole thing in a thick towel or blanket to keep the warmth in. Let it sit undisturbed for 8–10 hours, or overnight.",
+        "After 8–10 hours, the yogurt should be set — it will jiggle slightly when you tilt the jar but hold its shape. Carefully remove the jars from the water bath and refrigerate for at least 2 hours before eating. The yogurt firms up more as it chills.",
+        "Serve cold, straight from the jar."
+      ]
+    }
+  ],
+  "grid_order": 30,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4463.jpg",
+      "alt": "Original handwritten recipe for Yogurt Việt Nam"
+    }
+  ],
+  "card_image": "images/scans/IMG_4463.jpg",
+  "card_image_alt": "Yogurt Việt Nam"
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "xoi-ga",
+  "title": "Xôi Gà",
+  "english": "Sticky Rice with Chicken",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "com",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Xôi · Sticky Rice",
+          "items": [
+            "3 cups glutinous rice (gạo nếp), rinsed well",
+            "1 can (13.5 oz) coconut cream (nước cốt dừa)",
+            "½ teaspoon salt"
+          ]
+        },
+        {
+          "heading": "Gà · Chicken",
+          "items": [
+            "2 lbs chicken thighs (bone-in, skin-on)",
+            "3 tablespoons soy sauce",
+            "1 tablespoon oyster sauce",
+            "1 tablespoon sesame oil",
+            "½ teaspoon MSG (bột ngọt)",
+            "1 teaspoon sugar",
+            "1 teaspoon five-spice powder (ngũ vị hương)",
+            "4 cloves garlic, minced",
+            "3 shallots (hành tím), minced",
+            "½ teaspoon black pepper"
+          ]
+        },
+        {
+          "heading": "Đồ ăn kèm · Toppings",
+          "items": [
+            "Fried shallots (hành phi)",
+            "Fresh cilantro",
+            "Nước mắm pha dipping sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "The night before: wash the glutinous rice and soak overnight in coconut cream.",
+        "Marinate the chicken: mix soy sauce, oyster sauce, sesame oil, MSG, sugar, five-spice powder, garlic, shallots, and black pepper. Coat the chicken thighs thoroughly. Marinate for at least 1 hour, or overnight alongside the rice.",
+        "Preheat the oven to 350°F. Arrange the chicken thighs skin-side up on a baking sheet lined with foil. Bake for about 1 hour, until the skin is golden and crispy and the meat is tender and pulling away from the bone.",
+        "While the chicken bakes, steam the sticky rice: drain any excess liquid, spread the rice in a steamer basket lined with cheesecloth. Steam over boiling water for 25–30 minutes, flipping once halfway through, until the rice is translucent and tender but still chewy.",
+        "When the chicken is done, let it rest for a few minutes, then chop it into pieces — bone and all, the Vietnamese way — or shred it if you prefer.",
+        "To serve, mound the sticky rice on a plate, arrange the chicken on top, and scatter with fried shallots and fresh cilantro. Drizzle with any pan juices from the chicken."
+      ]
+    }
+  ],
+  "grid_order": 38,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4474.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4474.jpg",
+  "card_image_alt": "Xôi Gà"
+}

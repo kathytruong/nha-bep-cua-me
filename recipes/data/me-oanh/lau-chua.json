@@ -1,0 +1,69 @@
+{
+  "slug": "lau-chua",
+  "title": "Lẩu Chua Thái Bò",
+  "english": "Sour Thai-Style Hot Pot with Beef",
+  "cook": "me-oanh",
+  "cook_label": "From Mẹ — Oanh",
+  "category": "mon-man",
+  "sections": [
+    {
+      "heading": "Nguyên liệu · Ingredients",
+      "groups": [
+        {
+          "heading": "Nước lẩu · Broth",
+          "items": [
+            "6 cups chicken broth",
+            "3 tablespoons tamarind paste (me chua), dissolved in ½ cup warm water",
+            "2 stalks lemongrass (sả), bruised and cut into 3-inch pieces",
+            "1 tablespoon shrimp paste (mắm ruốc)",
+            "2 tablespoons fish sauce (nước mắm)",
+            "1 tablespoon sugar",
+            "2–3 fresh chili peppers, sliced"
+          ]
+        },
+        {
+          "heading": "Thịt và hải sản · Meat & Seafood",
+          "items": [
+            "½ lb beef (sirloin or eye round), thinly sliced",
+            "½ lb shrimp, peeled and deveined",
+            "½ lb fish fillet (swai or catfish), cut into pieces"
+          ]
+        },
+        {
+          "heading": "Rau · Vegetables",
+          "items": [
+            "1 cup okra (đậu bắp), halved",
+            "2 cups bean sprouts (giá)",
+            "1 bunch water spinach (rau muống) or morning glory",
+            "1 bunch rice paddy herb (ngò om)",
+            "Fresh herbs — Thai basil, sawtooth herb (ngò gai)",
+            "Rice vermicelli (bún), cooked, for serving"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cách làm · Instructions",
+      "steps": [
+        "Prepare the tamarind water: soak tamarind paste in warm water, mash and strain out the seeds.",
+        "Bring chicken broth to a boil in a hot pot or large pot. Add lemongrass, shrimp paste, fish sauce, sugar, and the tamarind water. Let it simmer for 10 minutes.",
+        "Taste the broth — it should be tangy, savory, and slightly sweet. Adjust with more tamarind for sour, fish sauce for salt, or sugar to balance.",
+        "Set up the table with the hot pot in the center, surrounded by platters of sliced beef, shrimp, fish, and all the vegetables. This is a communal meal — everyone cooks together at the table.",
+        "Cook the heartier vegetables first — okra takes a few minutes. Then dip the beef, shrimp, and fish into the simmering broth just until cooked through. The beef only needs 10–15 seconds.",
+        "Add bean sprouts, water spinach, and fresh herbs near the end — they wilt quickly and should stay bright and crisp.",
+        "Serve with bowls of cooked rice vermicelli. Ladle the hot broth and cooked ingredients over the noodles."
+      ]
+    }
+  ],
+  "grid_order": 15,
+  "memorial": "A recipe from Mẹ's kitchen",
+  "scan_label": "Công thức gốc · Original handwritten recipe",
+  "scans": [
+    {
+      "src": "../images/scans/IMG_4448.jpg",
+      "alt": "Original handwritten recipe"
+    }
+  ],
+  "card_image": "images/scans/IMG_4448.jpg",
+  "card_image_alt": "Lẩu Chua Thái Bò"
+}
